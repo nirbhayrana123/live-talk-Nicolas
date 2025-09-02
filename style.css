@@ -277,22 +277,69 @@ h2 {
   
 
 /* Categories */
-.categories {
-  background: #f8f8f8;
-}
-.tags {
+.slider-wrapper {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+  align-items: center;
   justify-content: center;
+  position: relative;
 }
-.tags span {
-  padding: 8px 15px;
-  border: 1px solid #ccc;
-  border-radius: 20px;
-  background: #fff;
-  font-size: 14px;
+
+.slider {
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  gap: 15px;
+  padding: 10px;
+  scrollbar-width: none;
 }
+.iniflun {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+ 
+
+.iniflun {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* button gap */
+  flex-wrap: wrap;
+}
+
+.iniflun button {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.iniflun button:hover {
+  background: #333;
+}
+
+.arrow {
+  background: none;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #00aaff;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.arrow:hover {
+  color: #0077aa;
+}
+     
 
 /* Contact */
 .icons {
@@ -433,6 +480,10 @@ h2 {
   .grid-2 {
     grid-template-columns: 1fr;
   }
+   .slider button {
+        font-size: 14px;
+        padding: 10px 18px;
+      }
   .grid-4 {
     grid-template-columns: 1fr 1fr;
   }
