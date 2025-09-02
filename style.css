@@ -299,10 +299,10 @@ button.search-icon {
 .btn-link {
     display: inline-block;
     margin-top: 40px;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 1.5em;
+    font-weight: 400;
     color: #00a2ff;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 .btn-link:hover {
