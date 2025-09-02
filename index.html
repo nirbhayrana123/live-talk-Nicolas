@@ -1,135 +1,179 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Livitalk</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Header -->
-  <header class="header">
-    <div class="container header-flex">
-      <div class="logo">Livi<span>Talk</span></div>
-<div class="search-box">
-    <button class="search-icon">
-      <img src="images/icon_chercher_chercher_default.svg">
-    </button>
-    <input type="text" placeholder="chercher">
-  </div>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Livitalk</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="header">
+            <div class="container header-flex">
+                <div class="logo">Livi<span>Talk</span></div>
+                <div class="search-box">
+                    <button class="search-icon">
+                        <img src="images/icon_chercher_chercher_default.svg">
+                    </button>
+                    <input type="text" placeholder="chercher">
+                </div>
 
-      <nav class="nav">
-        <a href="#">Chercher</a>
-        <a href="#" class="btn btn-small">S’inscrire</a>
-        <a href="#">Se connecter</a>
-      </nav>
-    </div>
-  </header>
+                <nav class="nav">
+                    <a href="#">Chercher</a>
+                    <a href="#" class="btn btn-small">S’inscrire</a>
+                    <a href="#">Se connecter</a>
+                </nav>
+            </div>
+        </header>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content container">
-      <h1>
-        <span class="blue">LiviTalk :</span> Discutez Seul à Seul avec vos Influenceurs,
-        Nanos-Influenceurs, Experts et Professionnels dans tous les domaines à travers le monde
-      </h1>
-      <p>ACHETEZ DU TEMPS DE COMMUNICATION ET DISCUTEZ AVEC VOTRE LIVIMASTER !</p>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="overlay"></div>
+            <div class="hero-content container">
+                <h1>
+                    <span class="blue">LiviTalk :</span> Discutez Seul à Seul
+                    avec vos Influenceurs,
+                    Nanos-Influenceurs, Experts et Professionnels dans tous les
+                    domaines à travers le monde
+                </h1>
+                <p>ACHETEZ DU TEMPS DE COMMUNICATION ET DISCUTEZ AVEC VOTRE
+                    LIVIMASTER !</p>
 
-      <div class="hero-grid">
-        <div class="card">
-          <h3>VOUS SUIVEZ VOS INFLUENCEURS...</h3>
-          <img src="images/frame-banner.png" alt="Follow">
+                <div class="hero-grid">
+                    <div class="card">
+                        <h3>VOUS SUIVEZ VOS INFLUENCEURS...</h3>
+                        <img src="images/frame-banner.png" alt="Follow">
+                    </div>
+                    <div class="card">
+                        <h3>CONTACTEZ-LES SUR LIVITALK PAR</h3>
+                        <img src="images/frame-banner2.png" alt="Contact">
+                    </div>
+                </div>
+
+                <a href="#" class="btn">S’INSCRIRE</a>
+            </div>
+        </section>
+
+        <!-- Talents -->
+        <section class="talents-section">
+            <h2 class="section-title">DISCUTEZ AVEC LES TALENTS QUI VOUS
+                INSPIRENT !</h2>
+
+            <div class="talents-wrapper">
+                <!-- Left Box -->
+                <div class="talent-box">
+                    <h3>Appelez Votre Influenceur<br>Ou Nano-Influenceur</h3>
+                    <p class="subtitle">DISCUTEZ SIMPLEMENT</p>
+                    <p class="desc">
+                        Et si vous pouviez échanger en direct avec l’influenceur
+                        ou Nano-Influenceur
+                        qui vous inspire chaque jour ? Accédez à son univers,
+                        posez-lui vos questions,
+                        partagez un moment unique !
+                    </p>
+                </div>
+
+                <!-- Center Phone -->
+                <div class="talent-phone">
+                    <img src="images/phone-mockup.png" alt="Phone Mockup">
+                </div>
+
+                <!-- Right Box -->
+                <div class="talent-box-contant-thre">
+                    <h3>Consultez Un Expert<br>Ou Professionnel</h3>
+                    <p class="subtitle">DEMANDEZ DES CONSEILS</p>
+                    <p class="desc">
+                        Envie de conseils d’un véritable Professionnels et
+                        expert ? Explorez de
+                        nouveaux horizons, développez vos compétences et obtenez
+                        des réponses
+                        sur-mesure en direct.
+                    </p>
+                </div>
+            </div>
+
+            <a href="#" class="btn-link">S’INSCRIRE</a>
+        </section>
+
+        <!-- Categories -->
+        <div class="container">
+            <h2>
+                LIVITALK RÉ-INVENTE LE MONDE DE LA MISE EN RELATION, COMMUNIQUEZ
+                24/24 ET 7/7 AVEC DES MILLIONS DE
+                PROFILS DANS TOUS LES DOMAINES, ACTIVITÉS OU MÉTIER À TRAVERS LE
+                MONDE !
+            </h2>
+
+            <div class="slider-wrapper">
+                <button class="arrow left">&#10094;</button>
+                <div class="slider" id="slider">
+                    <div class="iniflun">
+                        <button>Influenceurs</button>
+                        <button>Micros-influenceurs</button>
+                        <button>Youtubeurs</button>
+                        <button>Crypto-influenceurs</button>
+                        <button>Psychologues</button>
+                    </div>
+
+                    <div class="iniflun">
+                        <button>Professeur de langue</button>
+                        <button>Designer</button>
+                        <button>Sportifs</button>
+                        <button>Coach Sportif</button>
+                        <button>Coach de vie</button>
+                    </div>
+
+                    <div class="iniflun">
+                        <button>Instagrameur</button>
+                        <button>Professeur de Musique</button>
+                        <button>Nutritionniste</button>
+                        <button>Trader</button>
+                        <button>TikTokeur</button>
+                    </div>
+
+                </div>
+                <button class="arrow right">&#10095;</button>
+            </div>
         </div>
-        <div class="card">
-          <h3>CONTACTEZ-LES SUR LIVITALK PAR</h3>
-          <img src="images/frame-banner2.png" alt="Contact">
-        </div>
-      </div>
 
-      <a href="#" class="btn">S’INSCRIRE</a>
-    </div>
-  </section>
+        <!-- Contact Methods -->
+        <section class="contact container">
+            <h2>Contactez votre LiviMaster de 5 façons</h2>
+            <p>Achetez du temps de communication et discutez instantanément avec
+                votre LiviMaster par :</p>
+            <div class="icons">
+                <img src="images/phone.png" alt>
+                <img src="images/chat.png" alt>
+                <img src="images/webcam.png" alt>
+                <img src="images/sms.png" alt>
+                <img src="images/email.png" alt>
+            </div>
+        </section>
 
-  <!-- Talents -->
- <section class="talents-section">
-  <h2 class="section-title">DISCUTEZ AVEC LES TALENTS QUI VOUS INSPIRENT !</h2>
-  
-  <div class="talents-wrapper">
-    <!-- Left Box -->
-    <div class="talent-box">
-      <h3>Appelez Votre Influenceur<br>Ou Nano-Influenceur</h3>
-      <p class="subtitle">DISCUTEZ SIMPLEMENT</p>
-      <p class="desc">
-        Et si vous pouviez échanger en direct avec l’influenceur ou Nano-Influenceur 
-        qui vous inspire chaque jour ? Accédez à son univers, posez-lui vos questions, 
-        partagez un moment unique !
-      </p>
-    </div>
+        <!-- Affiliate -->
+        <section class="affiliate">
+            <h2>PARTICULIERS OU PROFESSIONNELS, GAGNEZ DE L’ARGENT AVEC
+                LIVITALK</h2>
+            <div class="container grid-4">
+                <div class="card">GAGNEZ <strong>10%</strong> DES REVENUS
+                    GÉNÉRÉS</div>
+                <div class="card">GAGNEZ <strong>50%</strong> DES REVENUS
+                    GÉNÉRÉS</div>
+                <div class="card">GAGNEZ JUSQU’À <strong>300$</strong> PAR
+                    VENTE</div>
+                <div class="card">GAGNEZ JUSQU’À <strong>90$</strong> PAR
+                    VENTE</div>
+            </div>
+            <a href="#" class="btn">Voir les programmes affiliés</a>
+        </section>
 
-    <!-- Center Phone -->
-    <div class="talent-phone">
-      <img src="images/phone-mockup.png" alt="Phone Mockup">
-    </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>© Livitalk 2022 - Tous droits réservés</p>
+            </div>
+        </footer>
 
-    <!-- Right Box -->
-    <div class="talent-box-contant-thre">
-      <h3>Consultez Un Expert<br>Ou Professionnel</h3>
-      <p class="subtitle">DEMANDEZ DES CONSEILS</p>
-      <p class="desc">
-        Envie de conseils d’un véritable Professionnels et expert ? Explorez de 
-        nouveaux horizons, développez vos compétences et obtenez des réponses 
-        sur-mesure en direct.
-      </p>
-    </div>
-  </div>
-
-  <a href="#" class="btn-link">S’INSCRIRE</a>
-</section>
-
-
-  <!-- Categories -->
-  <section class="categories">
-    <h2>LIVITALK RÉ-INVENTE LE MONDE DE LA MISE EN RELATION...</h2>
-    <div class="tags">
-      <span>Influenceurs</span><span>Micros-Influenceurs</span><span>Youtubeurs</span>
-      <span>Crypto-influenceurs</span><span>Psychologues</span><span>Professeur de langue</span>
-      <span>Designer</span><span>Sportifs</span><span>Coach Sportif</span><span>Coach de vie</span>
-      <span>Instagrameur</span><span>Professeur de Musique</span><span>Nutritionniste</span>
-      <span>Trader</span><span>TikTokeur</span>
-    </div>
-  </section>
-
-  <!-- Contact Methods -->
-  <section class="contact container">
-    <h2>Contactez votre LiviMaster de 5 façons</h2>
-    <p>Achetez du temps de communication et discutez instantanément avec votre LiviMaster par :</p>
-    <div class="icons">
-      <img src="images/phone.png" alt="">
-      <img src="images/chat.png" alt="">
-      <img src="images/webcam.png" alt="">
-      <img src="images/sms.png" alt="">
-      <img src="images/email.png" alt="">
-    </div>
-  </section>
-
-  <!-- Affiliate -->
-  <section class="affiliate">
-    <h2>PARTICULIERS OU PROFESSIONNELS, GAGNEZ DE L’ARGENT AVEC LIVITALK</h2>
-    <div class="container grid-4">
-      <div class="card">GAGNEZ <strong>10%</strong> DES REVENUS GÉNÉRÉS</div>
-      <div class="card">GAGNEZ <strong>50%</strong> DES REVENUS GÉNÉRÉS</div>
-      <div class="card">GAGNEZ JUSQU’À <strong>300$</strong> PAR VENTE</div>
-      <div class="card">GAGNEZ JUSQU’À <strong>90$</strong> PAR VENTE</div>
-    </div>
-    <a href="#" class="btn">Voir les programmes affiliés</a>
-  </section>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>© Livitalk 2022 - Tous droits réservés</p>
-    </div>
-  </footer>
-</body>
+        <script src="js/custom.js"></script>
+    </body>
 </html>
