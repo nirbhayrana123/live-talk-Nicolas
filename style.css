@@ -10,6 +10,7 @@ body {
   line-height: 1.6;
   background: #fff;
   color: #333;
+  font-size: 22px;
 }
 img{
   max-width: 100%;
@@ -38,26 +39,31 @@ img{
     }
     @media (min-width: 1200px) {
       .container { max-width: 1140px; }
-    }
+    } 
 
+ .search-box {
+    display: flex;
+    align-items: center;
+    background: #363838;
+    border: 1px solid #363838;
+    border-radius: 20px;
+    padding: 5px 12px;
+    width: 400px;
+}
 
-  .search-box {
-      display: flex;
-      align-items: center;
-      background: #2a2a2a;
-      border: 1px solid #7a42f4; /* purple border */
-      border-radius: 20px;
-      padding: 8px 12px;
-      width: 300px;
-    }
-
+.hero-content p {
+    color: #4CBBEC;
+    font-size: 1.4em;
+    font-weight: 500;
+}
     .search-box input {
       flex: 1;
       background: transparent;
       border: none;
       outline: none;
       color: #fff;
-      font-size: 14px;
+      font-size: 0.8em;
+      font-weight: 300;
       margin-left: 8px;
     }
 
@@ -69,11 +75,6 @@ button.search-icon {
     border: none;
     cursor: pointer;
 }
-
-
-
-
-
 
 
 /* Header */
@@ -102,6 +103,12 @@ button.search-icon {
   margin-left: 20px;
   text-decoration: none;
   color: #fff;
+  padding: 8px 16px; 
+  color: #fff;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1.1em;
+  transition: 0.3s;
 }
 
 .btn-small {
@@ -128,11 +135,13 @@ button.search-icon {
   z-index: 1;
 }
 .hero h1 {
-  font-size: 28px;
+  font-size: 1.8em;
   margin-bottom: 20px;
+  font-weight: 600;
 }
 .hero .blue {
-  color: #0dcaf0;
+    color: #0dcaf0;
+    font-weight: 700;
 }
 .hero-grid {
   display: flex;
@@ -227,23 +236,19 @@ button.search-icon {
 
 
 /* Button */
-.btn {
-  display: inline-block;
-  padding: 12px 25px;
-  background: #0dcaf0;
-  color: #fff;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-.btn:hover {
-  background: #0aa3c5;
-}
+.btn {  
+  background: #4CBBEC; 
+} 
 
 /* Sections */
 section {
   padding: 60px 20px;
   text-align: center;
+}
+nav.nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
 }
 h2 {
   margin-bottom: 30px;
