@@ -11,13 +11,13 @@ $(document).ready(function(){
       infinite: true,
       responsive: [
         {
-          breakpoint: 1024, // tablet
+          breakpoint: 1200, // tablet
           settings: {
             slidesToShow: 2
           }
         },
         {
-          breakpoint: 600, // mobile
+          breakpoint: 767, // mobile
           settings: {
             slidesToShow: 1
           }
@@ -50,7 +50,7 @@ prevArrow: `<button type="button" class="slick-prev">
 
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1200,
       settings: {
         slidesToShow: 3
       }
