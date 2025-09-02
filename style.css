@@ -54,7 +54,7 @@ body {
 
 /* Hero */
 .hero {
-  background: url('images/bg.jpg') no-repeat center/cover;
+  background: url('images/banner.jpg') no-repeat center/cover;
   position: relative;
   padding: 80px 20px;
   text-align: center;
