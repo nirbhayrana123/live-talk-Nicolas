@@ -974,9 +974,7 @@ body {
 }
 }
 @media(max-width: 1550px) {
-    body {
-        font-size: 10px;
-    }
+    
 .wrapper h2 {
     font-size: 1.5em; 
 }
