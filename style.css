@@ -126,7 +126,9 @@ button.search-icon {
     border: none;
     cursor: pointer;
 }
-
+button.buttons.btan {
+    margin: 50px 5px;
+}
 
 /* Header */
 .header {
@@ -168,9 +170,10 @@ nav.nav a:hover {
 .hero {
     background: url('images/banner.jpg') no-repeat center/cover;
     position: relative;
-    padding: 80px 20px;
+    padding-top: 80px;
     text-align: center;
     color: #fff;
+    padding-bottom: 0;
 }
 
 
@@ -194,7 +197,6 @@ nav.nav a:hover {
     display: grid;
     gap: 20px;
     grid-template-columns: 560px 1fr;
-    margin-bottom: 50px;
 }
 
 
