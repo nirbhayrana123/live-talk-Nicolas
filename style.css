@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Roboto', Arial, sans-serif;
+    font-family: "Roboto", sans-serif;
     /* ✅ Roboto font applied */
     line-height: 1.6;
     background: #fff;
@@ -100,6 +100,7 @@ img {
     color: #4CBBEC;
     font-size: 1.4em;
     font-weight: 500;
+    margin-bottom: 100px;
 }
 
 .search-box input {
