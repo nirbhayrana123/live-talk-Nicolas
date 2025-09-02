@@ -732,6 +732,55 @@ button.arrow.right {
   content: "";
 }
 
+section.particuliers {
+    background-color: #070707;
+}
+.mainparticuli h3 {
+    color: #fff;
+    font-size: 1.6em;
+    margin-bottom: 100px;
+}
+.contacter {
+    text-align: left;
+    background-color: #EDEDED;
+    padding: 50px 20px;
+    position: relative;
+} 
+.contacter span.numbers {
+    background-color: #ccc;
+    border-radius: 100px;
+    border: 1px solid #4CBBEC;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -45px;
+    left: 0;
+    font-size: 40px;
+    right: 0;
+    margin: 0 auto;
+}
+.professionnels {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:100px 65px;
+}
+.contacter h5 {
+    margin: 25px 0px;
+    font-size: 1.2em;
+}
+.contacter h5 span {
+       font-size: 1.6em;
+}
+.contacter span {
+    color: #4CBBEC;
+}
+
+/**********************new a css******************/
+
+
 
 
 
