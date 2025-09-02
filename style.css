@@ -103,7 +103,7 @@ h3{
     color: #4CBBEC;
     font-size: 1.9em;
     font-weight: 500;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
 }
 
 .search-box input {
@@ -141,16 +141,18 @@ button.search-icon {
     align-items: center;
 }
  
-
+nav.nav a:hover {
+    background-color: #4cbbec;
+}
  
 
 .nav a {
-    margin-left: 20px;
+    margin-left: 7px;
     text-decoration: none;
     color: #fff;
-    padding: 8px 16px;
+    padding: 8px 34px;
     color: #fff;
-    border-radius: 6px;
+    border-radius: 15px;
     text-decoration: none;
     font-size: 1.1em;
     transition: 0.3s;
