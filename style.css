@@ -6,10 +6,9 @@
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    /* ✅ Roboto font applied */
+    font-family: "Roboto", sans-serif; 
     line-height: 1.5;
-    background: #fff;
+    background: #FBFBFB;
     color: #333;
     font-size: 16px;
 }
@@ -831,8 +830,10 @@ button.buttons:hover {
 span.blue {
     color: #4CBBEC;
 }
-.lilitok h2 {
+.lilitok h3 {
     text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 40px;
 }
     @media (max-width: 768px) {
       .footer-container {
@@ -925,6 +926,19 @@ span.blue {
 
 section.particuliers {
     background-color: #070707;
+}
+.fleing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #4CBBEC;
+    font-weight: 500;
+    gap: 10px;
+    margin-top: 50px;
+}
+.fleing img {
+    width: 30px;
 }
 .mainparticuli h3 {
     color: #fff; 
