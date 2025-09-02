@@ -200,6 +200,7 @@ button.search-icon {
     display: grid;
     gap: 20px;
     grid-template-columns: 560px 1fr;
+    margin-bottom: 50px;
 }
 
 
@@ -788,6 +789,43 @@ footer {
     font-size: 14px;
 }
 
+button.buttons {
+    background-color: #4CBBEC;
+    padding: 20px 66px;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button.btan {
+    background-color: #ffffff;
+    padding: 20px 66px;
+    border: none;
+    border-radius: 15px;
+    color: #4CBBEC;
+    font-size: 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+button.buttons.btan:hover {
+    background-color: #4cbbec;
+    color: #fff;
+    transition: 1.5s;
+}
+button.buttons:hover {
+    background-color: #343535;
+    color: #fff;
+    transition: 1.5s;
+}
+
+span.blue {
+    color: #4CBBEC;
+}
+.lilitok h2 {
+    text-transform: uppercase;
+}
     @media (max-width: 768px) {
       .footer-container {
         flex-direction: column;
