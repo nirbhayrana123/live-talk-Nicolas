@@ -1,19 +1,4 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const slider = document.getElementById("slider");
-  const leftArrow = document.querySelector(".arrow.left");
-  const rightArrow = document.querySelector(".arrow.right");
 
-  const scrollAmount = 300; // Kitna scroll hoga ek click pe
-
-  rightArrow.addEventListener("click", () => {
-    slider.scrollBy({ left: scrollAmount, behavior: "smooth" });
-  });
-
-  leftArrow.addEventListener("click", () => {
-    slider.scrollBy({ left: -scrollAmount, behavior: "smooth" });
-  });
-
-});
 
 
 
@@ -39,4 +24,49 @@ $(document).ready(function(){
         }
       ]
     });
+
+
+
+
+
+
+
+$('.tag-slider').slick({
+  slidesToShow: 5,
+  slidesToScroll: 1,
+  arrows: true,
+  dots: false,
+  infinite: false,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+
+
+
+
+
+
+
+
+
+
+
   });
