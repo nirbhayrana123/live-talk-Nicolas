@@ -164,19 +164,31 @@ button.search-icon {
 
 /* Hero */
 .hero {
-    background: url('images/banner.jpg') no-repeat center/cover;
+    background: url('images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     padding: 80px 20px;
     text-align: center;
     color: #fff;
 }
 
+.slider-wrapper .tag-slider .slick-arrow {
+    width: 90px !important; 
+}
+.slick-prev::before,  .slick-next::before{
+  content: "";
+  display: none!important;
+}
 
-
+.tag-slider {
+    padding: 30px!important;
+}
 .hero-content {
     position: relative;
     z-index: 1;
 }
+ 
 
 .hero h1 { 
     margin-bottom: 20px;
@@ -349,14 +361,14 @@ nav.nav ul {
    background: #000;
     color: #fff;
     border: none;
-    padding: 16px 18px;
+    padding: 20px 18px;
     border-radius: 8px;
     font-size: 1.3em;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
     width: 90%;
-    margin: 7px 0px;
+    margin: 12px 0px;
 }
 
  
@@ -946,7 +958,11 @@ body {
 
 }
 
-
+@media(max-width: 1400px) {
+body { 
+    font-size: 11px;
+}
+}
 
 /* Responsive */
 @media(max-width: 900px) {
