@@ -25,7 +25,7 @@ img {
 h1{font-size: 2.5em;}
 h2{font-size: 2.5em;}
 h3{
-  font-size: 1.5em;
+  font-size: 2.1em;
 }
 .container {
     width: 100%;
@@ -322,10 +322,7 @@ nav.nav ul {
     list-style: none;
 }
 
-h2 {
-    margin-bottom: 30px;
-    font-size: 22px;
-}
+ 
 
 
 
@@ -372,7 +369,7 @@ h2 {
     border: none;
     padding: 17px 18px;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 1.3em;
     font-weight: 500;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -433,16 +430,19 @@ button.arrow.right {
   flex-wrap: wrap;
 }
 
-.contact-info {
-    max-width: 600px;
+.contact-info { 
     text-align: left;
 }
 
 .contact-info h2 {
-    font-size: 30px;
+    font-size: 2.2em;
     margin-bottom: 20px;
 }
-
+.heading-adombil h2 {
+    font-size: 1.8em;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
 .asterlass {
     display: flex;
     align-items: center;
@@ -462,9 +462,7 @@ button.arrow.right {
   margin: 40px 0;
 }
 
-.icon-container {
-    display: flex;
-}
+ 
 .circle img {
     width: 70px;
 }
@@ -476,6 +474,7 @@ button.arrow.right {
 .icon-container {
       display: flex;
       gap: 50px;
+      margin: 40px 0px;
       text-align: center;
     }
 
@@ -493,8 +492,9 @@ button.arrow.right {
       width: 70px; 
     }
     .bottom-part p {
-    text-align: left;
-    margin-top: 40px;
+    text-align: left; 
+    font-size: 1.8em;
+    font-weight: 500;
 }
 
     .circle:hover {
@@ -508,13 +508,19 @@ button.arrow.right {
     width: 30%;
 }
 .contact-info p {
-    margin-top: 40px;
+    margin-top: 25px;
+    font-size: 1.8em;
+  }
+  .bottom-part h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    font-weight: 600;
 }
 
-    .label {
-      font-size: 14px;
-      font-weight: 500;
-    }
+   .label {
+    font-size: 1.2em;
+    font-weight: 600;
+}
 
 
 .bottom-part .icons {
@@ -526,8 +532,9 @@ button.arrow.right {
   display: inline-block;
   margin-top: 15px;
   color: #00AEEF;
-  text-decoration: none;
-  font-weight: 500;
+  text-decoration: underline;
+  font-weight: 600;
+  font-size: 2.2em;
 }
 .learn-more:hover {
   text-decoration: underline;
@@ -698,7 +705,8 @@ button.arrow.right {
     height: 76px;
 }
 .contact-info .mainphone {
-    gap: 0px;
+    gap: 28px;
+    display: flex;
 }
 footer {
       background: #000;
@@ -850,8 +858,11 @@ footer {
 .trouvez-votre a.virbuton {
     color: #4CBBEC;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: 500;
+}
+.center-content h3{
+  font-weight: 600;
 }
 .trouvez-votre .card.slick-slide 
  {
@@ -878,8 +889,8 @@ section.particuliers {
     background-color: #070707;
 }
 .mainparticuli h3 {
-    color: #fff;
-    font-size: 1.6em;
+    color: #fff; 
+    font-weight: 600;
     margin-bottom: 100px;
 }
 .contacter {
@@ -911,15 +922,20 @@ section.particuliers {
 }
 .contacter h5 {
     margin: 25px 0px;
-    font-size: 1.2em;
+    font-size: 1.7em;
+    font-weight: 600;
 }
 .contacter h5 span {
-       font-size: 1.6em;
+       font-size: 1.4em;
+       font-weight: 700;
 }
 .contacter span {
     color: #4CBBEC;
 }
-
+.contacter p {
+    font-size: 1.4em;
+    font-weight: 400;
+}
 /**********************new a css******************/
 
 
