@@ -101,7 +101,7 @@ h3{
 
 .hero-content p {
     color: #4CBBEC;
-    font-size: 1.9em;
+    font-size: 1.7em;
     font-weight: 500;
     margin-bottom: 60px;
 }
@@ -606,8 +606,7 @@ nav.nav ul {
 
 .wrapper .cards {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: center; 
 }
 
 .wrapper .card {
@@ -965,6 +964,38 @@ body {
 @media(max-width: 1400px) {
 body { 
     font-size: 11px;
+}
+.search-boxbottm { 
+    width: 500px; 
+}
+}
+
+
+@media(max-width: 1200px) {
+
+body {
+        font-size: 13px;
+    }
+
+
+
+.hero-grid { 
+    grid-template-columns: 1fr;
+}
+
+.professionnels { 
+    grid-template-columns: repeat(1, 1fr); 
+}
+.contacter { 
+    padding: 30px 20px; 
+}
+.contacter span.numbers { 
+    margin: 0 auto;
+    margin-left: auto;
+    left: auto;
+    width: 80px;
+    height: 80px;
+    right: 40px;
 }
 }
 
