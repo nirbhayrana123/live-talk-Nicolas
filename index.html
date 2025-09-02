@@ -3,199 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LiviTalk</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: "Arial", sans-serif;
-    }
-
-    body {
-      background: #f9f9f9;
-      color: #222;
-      line-height: 1.6;
-    }
-
-    .hero {
-      background: url('https://via.placeholder.com/1600x500') no-repeat center/cover;
-      padding: 60px 20px;
-      text-align: center;
-      color: white;
-      background-color: #0c0c0c; /* fallback */
-    }
-
-    .hero h1 {
-      font-size: 28px;
-      font-weight: bold;
-    }
-
-    .hero h1 span {
-      color: #187bcd;
-    }
-
-    .hero p {
-      margin-top: 10px;
-      font-size: 16px;
-    }
-
-    .btn-main {
-      display: inline-block;
-      margin-top: 15px;
-      background: #187bcd;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    .btn-main:hover {
-      background: #145b99;
-    }
-
-    /* Boxes section */
-    .features {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 20px;
-      max-width: 1100px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-
-    .card {
-      background: white;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      text-align: center;
-    }
-
-    .card img {
-      max-width: 100%;
-      margin-bottom: 15px;
-      border-radius: 10px;
-    }
-
-    .card h3 {
-      font-size: 18px;
-      margin-bottom: 10px;
-      font-weight: bold;
-    }
-
-    .card p {
-      font-size: 14px;
-      color: #555;
-    }
-
-    .btn-secondary {
-      margin-top: 15px;
-      display: inline-block;
-      background: #187bcd;
-      color: white;
-      padding: 8px 18px;
-      border-radius: 6px;
-      text-decoration: none;
-      font-size: 14px;
-    }
-
-    /* Bottom Section */
-    .bottom-section {
-      background: #fff;
-      padding: 50px 20px;
-      text-align: center;
-    }
-
-    .bottom-section h2 {
-      color: #187bcd;
-      font-size: 22px;
-      margin-bottom: 40px;
-    }
-
-    .bottom-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      max-width: 900px;
-      margin: auto;
-      gap: 40px;
-    }
-
-    .bottom-card {
-      background: #f7f7f7;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
-    }
-
-    .bottom-card h3 {
-      font-size: 18px;
-      margin-bottom: 10px;
-    }
-
-    .bottom-card p {
-      font-size: 14px;
-      color: #444;
-      margin-bottom: 15px;
-    }
-
-    .phone-img {
-      max-width: 200px;
-      display: block;
-      margin: 15px auto;
-    }
-
-    /* Responsive */
-    @media(max-width: 768px) {
-      .features, .bottom-grid {
-        grid-template-columns: 1fr;
-      }
-    }
-  </style>
+  <title>Livitalk</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-flex">
+      <div class="logo">Livi<span>Talk</span></div>
+      <nav class="nav">
+        <a href="#">Chercher</a>
+        <a href="#" class="btn btn-small">S’inscrire</a>
+        <a href="#">Se connecter</a>
+      </nav>
+    </div>
+  </header>
 
-  <!-- HERO SECTION -->
+  <!-- Hero Section -->
   <section class="hero">
-    <h1><span>LiviTalk</span> : Discutez Seul à Seul avec vos Influenceurs, Nanos-Influenceurs, Experts et Professionnels dans tous les domaines à travers le monde</h1>
-    <p>ACHETEZ DU TEMPS DE COMMUNICATION ET DISCUTEZ AVEC VOTRE LIVIMASTER !</p>
-    <a href="#" class="btn-main">S'INSCRIRE</a>
-  </section>
+    <div class="overlay"></div>
+    <div class="hero-content container">
+      <h1>
+        <span class="blue">LiviTalk :</span> Discutez Seul à Seul avec vos Influenceurs,
+        Nanos-Influenceurs, Experts et Professionnels dans tous les domaines à travers le monde
+      </h1>
+      <p>ACHETEZ DU TEMPS DE COMMUNICATION ET DISCUTEZ AVEC VOTRE LIVIMASTER !</p>
 
-  <!-- FEATURES -->
-  <section class="features">
-    <div class="card">
-      <img src="https://via.placeholder.com/350x200" alt="Influenceurs">
-      <h3>VOUS SUIVEZ VOS INFLUENCEURS, NANOS-INFLUENCEURS, PROFESSIONNELS...</h3>
-      <p>Leur temps est à portée de clic !</p>
-    </div>
-    <div class="card">
-      <img src="https://via.placeholder.com/350x200" alt="Contact Options">
-      <h3>CONTACTER LES SUR LIVITALK PAR</h3>
-      <p>Tel, Webcam, Chat, SMS, Email…</p>
-    </div>
-  </section>
-
-  <!-- BOTTOM SECTION -->
-  <section class="bottom-section">
-    <h2>DISCUTEZ AVEC LES TALENTS QUI VOUS INSPIRENT !</h2>
-    <div class="bottom-grid">
-      <div class="bottom-card">
-        <h3>Appelez Votre Influenceur Ou Nano-Influenceur</h3>
-        <p>Et si vous pouviez échanger en direct avec l'Influenceur ou Nano-influenceur qui vous inspire ?</p>
-        <img src="https://via.placeholder.com/200x400" alt="Phone" class="phone-img">
-        <a href="#" class="btn-secondary">S'INSCRIRE</a>
+      <div class="hero-grid">
+        <div class="card">
+          <h3>VOUS SUIVEZ VOS INFLUENCEURS...</h3>
+          <img src="images/follow.png" alt="Follow">
+        </div>
+        <div class="card">
+          <h3>CONTACTEZ-LES SUR LIVITALK PAR</h3>
+          <img src="images/contact.png" alt="Contact">
+        </div>
       </div>
-      <div class="bottom-card">
-        <h3>Consultez Un Expert Ou Professionnel</h3>
-        <p>Envie de conseils d’un véritable professionnel ? Obtenez des réponses sur mesure en direct.</p>
-        <img src="https://via.placeholder.com/200x400" alt="Phone" class="phone-img">
-        <a href="#" class="btn-secondary">S'INSCRIRE</a>
-      </div>
+
+      <a href="#" class="btn">S’INSCRIRE</a>
     </div>
   </section>
 
+  <!-- Talents -->
+  <section class="talents container">
+    <h2>DISCUTER AVEC LES TALENTS QUI VOUS INSPIRENT !</h2>
+    <div class="grid-2">
+      <div class="box">
+        <h3>Appelez Votre Influenceur</h3>
+        <p>Discutez simplement avec vos influenceurs préférés en direct.</p>
+      </div>
+      <div class="box">
+        <h3>Consultez un Expert</h3>
+        <p>Demandez des conseils à des professionnels et experts reconnus.</p>
+      </div>
+    </div>
+    <a href="#" class="btn">S’INSCRIRE</a>
+  </section>
+
+  <!-- Categories -->
+  <section class="categories">
+    <h2>LIVITALK RÉ-INVENTE LE MONDE DE LA MISE EN RELATION...</h2>
+    <div class="tags">
+      <span>Influenceurs</span><span>Micros-Influenceurs</span><span>Youtubeurs</span>
+      <span>Crypto-influenceurs</span><span>Psychologues</span><span>Professeur de langue</span>
+      <span>Designer</span><span>Sportifs</span><span>Coach Sportif</span><span>Coach de vie</span>
+      <span>Instagrameur</span><span>Professeur de Musique</span><span>Nutritionniste</span>
+      <span>Trader</span><span>TikTokeur</span>
+    </div>
+  </section>
+
+  <!-- Contact Methods -->
+  <section class="contact container">
+    <h2>Contactez votre LiviMaster de 5 façons</h2>
+    <p>Achetez du temps de communication et discutez instantanément avec votre LiviMaster par :</p>
+    <div class="icons">
+      <img src="images/phone.png" alt="">
+      <img src="images/chat.png" alt="">
+      <img src="images/webcam.png" alt="">
+      <img src="images/sms.png" alt="">
+      <img src="images/email.png" alt="">
+    </div>
+  </section>
+
+  <!-- Affiliate -->
+  <section class="affiliate">
+    <h2>PARTICULIERS OU PROFESSIONNELS, GAGNEZ DE L’ARGENT AVEC LIVITALK</h2>
+    <div class="container grid-4">
+      <div class="card">GAGNEZ <strong>10%</strong> DES REVENUS GÉNÉRÉS</div>
+      <div class="card">GAGNEZ <strong>50%</strong> DES REVENUS GÉNÉRÉS</div>
+      <div class="card">GAGNEZ JUSQU’À <strong>300$</strong> PAR VENTE</div>
+      <div class="card">GAGNEZ JUSQU’À <strong>90$</strong> PAR VENTE</div>
+    </div>
+    <a href="#" class="btn">Voir les programmes affiliés</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© Livitalk 2022 - Tous droits réservés</p>
+    </div>
+  </footer>
 </body>
 </html>
