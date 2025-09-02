@@ -366,7 +366,7 @@ h2 {
       transform: rotate(0deg);
     }
 
-    .card:nth-child(3) {
+    .wrapper .card:nth-child(3) {
       transform: rotate(7.52deg);
     }
 
