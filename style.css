@@ -711,12 +711,12 @@ footer {
     justify-content: space-between;
 }
 
-    .footer-links ul {
-      list-style: none;
+   .footer-links ul {
+    list-style: none;
     display: flex;
     justify-content: end;
-    gap: 0px 215px;
-    }
+    gap: 0px 110px;
+}
 
     .footer-links ul li {
       margin-bottom: 10px;
@@ -733,11 +733,12 @@ footer {
       color: #00aef7;
     }
 
-    .footer-lang {
-      flex: 1;
-      text-align: right;
-      font-size: 14px;
-    }
+   .footer-lang {
+    flex: 1;
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
 
     .footer-lang img {
       width: 20px;
