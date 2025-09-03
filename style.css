@@ -1131,10 +1131,21 @@ flex-wrap: nowrap;
 .grightcard h5 {
     font-size: 1em;
 }
-
-
-
-
+.talents-wrapper {
+    max-width: 100%;
+}
+.talent-box {
+    flex: 100%;
+    text-align: center;
+}
+.talent-box-contant-thre {
+    flex: 100%;
+    text-align: center;
+}
+.top-part {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
 
  
