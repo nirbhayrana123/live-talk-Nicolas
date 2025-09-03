@@ -13,7 +13,7 @@ $(document).ready(function(){
         {
           breakpoint: 1200, // tablet
           settings: {
-            slidesToShow: 2
+            slidesToShow: 3
           }
         },
         {
