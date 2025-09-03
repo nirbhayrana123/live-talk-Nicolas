@@ -185,7 +185,11 @@ nav.nav a:hover {
   content: "";
   display: none!important;
 }
-
+.slider-wrapper .tag-slider .slick-arrow svg {
+    width: 22px !important;
+    position: relative;
+    top: -23px;
+}
 .tag-slider {
     padding: 30px!important;
 }
