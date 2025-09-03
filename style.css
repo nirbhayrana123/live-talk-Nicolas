@@ -324,10 +324,12 @@ button.buttons.btan {
 .btn {
     background: #4CBBEC;
 }
-
+.images-stack img {
+    width: 400px;
+}
 /* Sections */
 section.invirelr {
-    padding: 100px 0px;
+    padding: 140px 0px;
     text-align: center;
 }
 section.particuliers {
@@ -378,14 +380,14 @@ nav.nav ul {
    background: #000;
     color: #fff;
     border: none;
-    padding: 20px 18px;
-    border-radius: 8px;
-    font-size: 1.3em;
+    padding: 20px 0px;
+    border-radius: 12px;
+    font-size: 1.5em;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
-    width: 90%;
-    margin: 12px 0px;
+    width: 95%;
+    margin: 8px 0px;
 }
 
  
@@ -423,8 +425,8 @@ nav.nav ul {
 }
 
 .contact-info h2 {
-    font-size: 2.2em;
-    margin-bottom: 20px;
+    font-size: 2em;
+    margin-bottom:38px;
 }
 .heading-adombil h2 {
     font-size: 1.8em;
@@ -498,7 +500,7 @@ nav.nav ul {
     width: 30%;
 }
 .contact-info p {
-    margin-top: 25px;
+    margin-top: 38px;
     font-size: 1.6em;
   }
   p{
