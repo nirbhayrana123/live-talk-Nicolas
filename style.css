@@ -597,12 +597,7 @@ nav.nav ul {
     z-index: 9;
     transition: transform 0.3s ease;
 }
-.slick-slide:hover {
-    transform: scale(1.1);
-}
-.slick-slide {
-    transition: transform 0.3s ease-in-out;
-}
+ 
 .mainphone {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
