@@ -19,7 +19,7 @@ $(document).ready(function(){
         {
           breakpoint: 767, // mobile
           settings: {
-            slidesToShow: 1
+            slidesToShow: 2
           }
         }
       ]
@@ -64,7 +64,7 @@ prevArrow: `<button type="button" class="slick-prev">
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 1
+        slidesToShow: 2
       }
     }
   ]
