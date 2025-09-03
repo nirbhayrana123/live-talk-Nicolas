@@ -1412,16 +1412,106 @@ a.emailtablet span {
 /* Responsive */
 @media(max-width: 991px) {
 
+.hero-grid {
+        grid-template-columns: 1fr;
+    }
+.talents-wrapper { 
+    max-width: 100%; 
+}
+
+.talent-box {
+    flex: 100%;
+    text-align: center;
+}
+.talent-box-contant-thre {
+    flex: 100%;
+    text-align: center;
+}
+.talent-box-contant-thre h3 br {
+    display: none;
+}
+.talent-box h3 br {
+    display: none;
+}
+.contact-info { 
+    width: 100%;
+}
+
+.images-stack {
+    width: 100%;
+    order: 2;
+    text-align: center;
+}
+    .top-part {
+        flex-wrap: wrap;
+    }
+
+.contact-info .mainphone { 
+    justify-content: center;
+}
+.contact-info {
+    text-align: center; 
+    order: 1;
+}
+
+.bottom-part {
+    text-align: center;
+    width: 100%;
+}
+.asterlass { 
+    flex-wrap: wrap;
+}
+.bottom-part p {
+    text-align: center; 
+}
+.asterlass .images-stack {
+    margin-top: 40px;
+}
+.iniflun button { 
+        font-size: 1.2em; 
+    }
+    .center-content br {
+    display: none;
+}
+
+
+
+    .footer-links ul {
+        gap: 20px 20px;
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+
+
+
+
+a.mobileview {
+    display: none;
+}
 
 
 }
 
 
 @media(max-width: 768px) {
+        a.mobileview {
+        display: block;
+    }
     .grid-2 {
         grid-template-columns: 1fr;
     }
-
+.tablet a.buttomtabletheader {
+    display: none;
+}
+    .search-box {
+        display: none;
+    }
+        p.price {
+        font-size: 1.5em;
+        font-weight: 500;
+        display: none;
+    }
     .footer-container {
         flex-direction: column;
         text-align: center;
@@ -1446,10 +1536,171 @@ a.emailtablet span {
     .grid-4 {
         grid-template-columns: 1fr 1fr;
     }
+
+.hero h1 {
+font-weight: 700;
+}
+    h1 {
+        font-size: 1.4em;
+        
+    }
+
+    .hero-content p {
+        font-size: 1.3em;
+    }
+    .wrapper h2 {
+        font-size: 1.1em;
+    }
+
+    .grightcard h3 {
+    font-size: 1.1em; 
+}
+.grightcard h5 { 
+    font-size: 1em; 
+}
+.talents-section { 
+    padding: 35px 15px; 
+            margin-bottom: 40px;
+}
+.talent-box-contant-thre .desc br {
+    display: none;
+}
+
+    .section-title {
+        font-size: 1.6em;
+    }
+        .talent-box h3 {
+        font-size: 1.6em;
+    }
+        .talent-box .subtitle {
+        font-size: 1.3em;
+    }
+    .talent-box-contant-thre h3 {
+        font-size: 1.6em;
+    }
+        .talent-box-contant-thre .subtitle {
+        font-size: 1.3em;
+    }
+.talent-box-contant-thre .desc {
+    font-size: 1.2em; 
+}
+.btn-link { 
+        margin-top: 20px;
+    }
+    .heading-adombil h2 {
+        font-size: 1.3em;
+    }
+.contact-info h2 {
+        font-size: 1.5em; 
+    }
+    .bottom-part h2 {
+        font-size: 1.5em;
+    }
+        .bottom-part p {
+        font-size: 1em;
+    }
+        .center-content h3 {
+        font-size: 1.4em;
+    }
+        .contacter h5 {
+        font-size: 1.5em; 
+    }
+.contacter span.numbers { 
+        width: 50px;
+        height: 50px; 
+        top: -30px;
+    }
+.contacter p {
+    font-size: 1.2em; 
+}
+
+    .fleing {
+        font-size: 1em;
+    }
+section.toklivik {
+    padding: 70px 0px; 
+}
+
+.lilitok h3 {
+        font-size: 1.4em;
+    }
+ .hero-content br {
+    display: none;
+}
+
 }
 
 @media(max-width: 500px) {
+.hero h1 {
+    margin-bottom: 10px; 
+}
+.top-francice { 
+    flex-wrap: wrap;
+}
+.trouvez-votre .card.slick-slide {
+    margin-right: 0;
+}
+    .footer-links ul {
+        gap: 20px 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .grid-4 {
         grid-template-columns: 1fr;
     }
+.talent-box .desc br {
+    display: none;
+}
+
+button.iconphone { 
+    padding: 15px;
+    width: 50px;
+    height: 50px; 
+}
+
+.mainphone { 
+    gap: 10px;
+}
+
+.contact-info .mainphone {
+    gap: 15px; 
+}
+.contact-info button.iconphone { 
+    width: 45px;
+    height: 45px; 
+}
+.icon-container { 
+    gap: 20px; 
+      justify-content: start;
+    flex-direction: column;
+}
+ .search-boxbottm {
+        width: 100%;
+    }
+        .footer-links ul { 
+        justify-content: center;
+    }
+    .hero { 
+    padding-top: 15px; 
+}
+    .copyright {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .footer-bottom {
+        margin-top: 14px;
+        font-size: 9px;
+        order: 2;
+    }
+.footer-logo {
+    flex: 100%;
+}
+    .footer-lang, .social-icons {
+        text-align: center;
+        margin-top: 15px;
+    }
+   
 }
