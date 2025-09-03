@@ -131,7 +131,7 @@ button.search-icon {
     cursor: pointer;
 }
 button.buttons.btan {
-    margin: 50px 5px;
+    margin: 35px 5px;
 }
 
 /* Header */
@@ -222,7 +222,7 @@ button.buttons.btan {
 .talents-section {
     background: #FBFBFB;
     text-align: center;
-    padding: 60px 20px;
+    padding: 80px 20px;
         box-shadow: 1px 1px 36px #00000040;
 }
 
@@ -230,7 +230,7 @@ button.buttons.btan {
     font-size: 2.5em;
     font-weight: 700;
     color: #4CBBEC; 
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     text-transform: uppercase;
 }
 
@@ -238,8 +238,8 @@ button.buttons.btan {
 .talents-wrapper {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 40px; 
+    justify-content: center; 
+    flex-wrap: wrap;
     max-width: 1200px;
     margin: auto;
 }
@@ -270,7 +270,7 @@ button.buttons.btan {
 }
 
 .talent-box .subtitle {
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-weight: 600;
     color: #00a2ff; 
     margin-bottom: 15px;
@@ -278,7 +278,7 @@ button.buttons.btan {
 }
 
 .talent-box-contant-thre .subtitle {
-    font-size: 1.7em;
+    font-size: 1.5em;
     font-weight: 600;
     color: #00a2ff; 
     margin-bottom: 15px;
@@ -799,7 +799,7 @@ footer {
 
 button.buttons {
     background-color: #4CBBEC;
-    padding: 20px 66px;
+    padding: 23px 66px;
     border: none;
     border-radius: 10px;
     color: #fff;
@@ -810,7 +810,7 @@ button.buttons {
 }
 button.btan {
     background-color: #ffffff;
-    padding: 20px 66px;
+    padding: 23px 66px;
     border: none;
     border-radius: 10px;
     color: #4CBBEC;
