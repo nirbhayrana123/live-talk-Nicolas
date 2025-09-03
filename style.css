@@ -96,14 +96,15 @@ h3{
     border: 1px solid #363838;
     border-radius: 20px;
     padding: 5px 12px;
-    width: 400px;
+ width: 370px;
+    margin-left: -220px;
 }
 
 .hero-content p {
     color: #4CBBEC;
-    font-size: 1.7em;
+    font-size: 1.6em;
     font-weight: 500;
-    margin-bottom: 60px;
+    margin-bottom: 35px;
 }
 
 .search-box input {
@@ -112,9 +113,12 @@ h3{
     border: none;
     outline: none;
     color: #fff;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-weight: 300;
     margin-left: 8px;
+}
+button.search-icon img {
+    width: 15px;
 }
 
 .search-box input::placeholder {
@@ -206,7 +210,7 @@ button.buttons.btan {
 .hero-grid {
     display: grid;
     gap: 20px;
-    grid-template-columns: 560px 1fr;
+    grid-template-columns: 470px 1fr;
 }
 
 
@@ -510,7 +514,7 @@ nav.nav ul {
 
 .learn-more {
   display: inline-block;
-  margin-top: 90px;
+  margin-top: 50px;
   color: #00AEEF;
   text-decoration: underline;
   font-weight: 600;
@@ -597,7 +601,7 @@ nav.nav ul {
 }
 .grightcard h5 {
     color: #4CBBEC;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-transform: uppercase;
     margin-top: 20px;
     font-weight: 500;
@@ -610,9 +614,11 @@ nav.nav ul {
       color: #000;
     }
 
-.wrapper .cards {
+.wrapper .cards  {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
 }
 
 .wrapper .card {
@@ -637,21 +643,21 @@ nav.nav ul {
 
 
     /* CTA Button */
-   .wrapper .cta {
-      margin-top: 40px;
-      display: inline-flex;
-      align-items: center;
-      background: #4CBBEC;
-      color: #fff;
-      padding: 12px 20px;
-      border-radius: 10px;
-      font-size: 1em;
-      font-weight: bold;
-      text-decoration: none;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-      position: relative;
-      max-width: 240px;
-    }
+  .wrapper .cta {
+    margin-top: 40px;
+    display: inline-flex;
+    align-items: center;
+    background: #4CBBEC;
+    color: #fff;
+    padding: 9px 15px;
+    border-radius: 14px;
+    font-size: 1em;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    max-width: 200px;
+}
 .wrapper .cta::after {
     content: "";
     position: absolute;
@@ -691,8 +697,8 @@ footer {
     background: #000;
     color: #fff;
     padding: 40px 60px 20px;
-    border-top-left-radius: 65px;
-    border-top-right-radius: 65px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
      
@@ -725,7 +731,7 @@ footer {
     .footer-links ul li a {
       text-decoration: none;
       color: #fff;
-      font-size: 14px;
+      font-size: 18px;
       transition: 0.3s;
     }
 
@@ -782,9 +788,10 @@ button.buttons {
     border: none;
     border-radius: 10px;
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.1em;
     text-transform: uppercase;
     cursor: pointer;
+    font-weight: 500;
 }
 button.btan {
     background-color: #ffffff;
@@ -792,19 +799,20 @@ button.btan {
     border: none;
     border-radius: 10px;
     color: #4CBBEC;
-    font-size: 1.5em;
+    font-size: 1.1em;
     text-transform: uppercase;
     cursor: pointer;
+    font-weight: 500;
 }
 button.buttons.btan:hover {
     background-color: #4cbbec;
     color: #fff;
-    transition: 1.5s;
+    transition: 0.5s;
 }
 button.buttons:hover {
     background-color: #343535;
     color: #fff;
-    transition: 1.5s;
+    transition: 0.5s;
 }
 
 span.blue {
@@ -812,8 +820,10 @@ span.blue {
 }
 .lilitok h3 {
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 40px;
+    color: #000;
+    font-size: 25px;
 }
  
 
@@ -823,15 +833,14 @@ span.blue {
     display: flex;
     align-items: center;
     border: 1px solid #4CBBEC;
-    border-radius: 15px;
+    border-radius: 10px;
     padding: 8px 12px;
-    width: 750px;
+    width: 700px;
     background: #FBFBFB;
     box-shadow: 1px 1px 20px 7px #00000014;
-    margin: 55px auto;
-} 
-    .search-boxbottm i {
-    
+    margin: 40px auto;
+}
+    .search-boxbottm i { 
       margin-right: 8px;
     }
 
@@ -863,8 +872,9 @@ span.blue {
     font-size: 1em;
     font-weight: 500;
 }
-.center-content h3{
-  font-weight: 600;
+.center-content h3 {
+    font-weight: 600;
+    color: #000;
 }
 .trouvez-votre .card.slick-slide 
  {
