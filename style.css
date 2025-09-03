@@ -658,19 +658,19 @@ nav.nav ul {
 
     /* CTA Button */
   .wrapper .cta {
-    margin-top: 40px;
+   margin-top: 40px;
     display: inline-flex;
     align-items: center;
     background: #4CBBEC;
     color: #fff;
     padding: 9px 15px;
     border-radius: 14px;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: bold;
     text-decoration: none;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     position: relative;
-    max-width: 200px;
+    max-width: 180px;
 }
 .wrapper .cta::after {
     content: "";
@@ -685,8 +685,8 @@ nav.nav ul {
 
 
     .cta img {
-      margin-right: 10px; 
-      width: 45px;
+   margin-right: 5px;
+    width: 35px;
     }
 
 .cta i {
@@ -992,7 +992,12 @@ body {
 .wrapper h2 {
     font-size: 1.5em; 
 }
-
+.wrapper .cta {
+    max-width: 160px;
+}
+.hero-grid { 
+    grid-template-columns: 450px 1fr;
+}
 }
 
 @media(max-width: 1400px) {
