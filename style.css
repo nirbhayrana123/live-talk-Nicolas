@@ -1032,6 +1032,43 @@ body {
 .iniflun button { 
     font-size: 1.2em; 
 }
+.bottom-part p { 
+    font-size: 1.7em; 
+}
+.label {
+    font-size: 1.3em; 
+}
+.learn-more { 
+    font-size: 2em;
+}
+.center-content h3 { 
+    font-size: 2em;
+}
+button.search-icon img {
+    width: 20px;
+}
+.search-boxbottm { 
+    width: 600px; 
+}
+section.trouvez-votre.invirelr {
+    padding-bottom: 150px;
+}
+.contacter span.numbers { 
+    width: 75px;
+    height: 75px; 
+}
+
+.contacter { 
+    padding: 30px 20px; 
+}
+.fleing { 
+    font-size: 1.3em; 
+}
+
+
+.lilitok h3 { 
+    font-size: 1.8em;
+}
 
 
 
