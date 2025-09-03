@@ -544,7 +544,12 @@ nav.nav ul {
     font-size: 1.8em;
     font-weight: 500;
 }
-
+.zoomhoveranimetion:hover {
+    transform: translateY(-20px);
+}
+.zoomhoveranimetion  {
+    transition: transform 0.4s ease;
+}
 .circle:hover {
     transform: scale(1.1);
 }
