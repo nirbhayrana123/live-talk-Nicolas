@@ -359,17 +359,26 @@ button.buttons.btan {
 
 
 
-
+.footer-bottom p {
+    font-size: 1.4em;
+    font-weight: 300;
+}
 /* Button */
 .btn {
     background: #4CBBEC;
+}
+.copyright {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    gap: 370px;
 }
 .images-stack img {
     width: 400px;
 }
 /* Sections */
 section.invirelr {
-    padding: 140px 0px;
+    padding: 120px 0px;
     text-align: center;
 }
 
@@ -1155,9 +1164,7 @@ section.particuliers {
         width: 600px;
     }
 
-    section.trouvez-votre.invirelr {
-        padding-bottom: 150px;
-    }
+     
 
     .contacter span.numbers {
         width: 75px;
