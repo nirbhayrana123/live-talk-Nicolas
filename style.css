@@ -497,7 +497,10 @@ nav.nav ul {
 }
 .contact-info p {
     margin-top: 25px;
-    font-size: 1.8em;
+    font-size: 1.6em;
+  }
+  p{
+    font-size: 1.6em;
   }
   .bottom-part h2 {
     font-size: 2.2em;
