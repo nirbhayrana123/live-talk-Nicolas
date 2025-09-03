@@ -944,15 +944,15 @@ section.particuliers {
     background-color: #EDEDED;
     border-radius: 100px;
     border: 1px solid #4CBBEC;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     top: -45px;
     left: 0;
-    font-size: 40px;
+    font-size: 1.9em;
     right: 0;
     margin: 0 auto;
 }
@@ -965,6 +965,7 @@ section.particuliers {
     margin: 25px 0px;
     font-size: 1.7em;
     font-weight: 600;
+    transition: 0.5s;
 }
 .contacter h5 span {
        font-size: 1.4em;
@@ -976,6 +977,13 @@ section.particuliers {
 .contacter p {
     font-size: 1.4em;
     font-weight: 400;
+     transition: 0.5s;
+}
+.contacter:hover h5 {
+    font-size: 1.9em;
+}
+.contacter:hover p{
+    font-size: 1.6em;
 }
 /**********************new a css******************/
 
