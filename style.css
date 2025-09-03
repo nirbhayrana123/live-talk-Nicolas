@@ -589,6 +589,13 @@ nav.nav ul {
     color: #fff;
     position: relative;
     z-index: 9;
+    transition: transform 0.3s ease;
+}
+.slick-slide:hover {
+    transform: scale(1.1);
+}
+.slick-slide {
+    transition: transform 0.3s ease-in-out;
 }
 .mainphone {
     display: grid;
@@ -687,11 +694,15 @@ nav.nav ul {
 .cta:hover {
     background: #039be5;
 }
+button.iconphone:hover {
+    transform: scale(1.1);
+}
 
 .contact-info button.iconphone{
     margin: 0;
     width: 76px;
     height: 76px;
+    transition: transform 0.3s ease;
 }
 .contact-info .mainphone {
     gap: 28px;
