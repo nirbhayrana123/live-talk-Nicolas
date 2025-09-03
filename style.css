@@ -287,14 +287,16 @@ button.buttons.btan {
 
 .talent-box-contant-thre .desc {
     font-size: 1.3em;
-    color: #444;
+    color: #000;
     line-height: 1.6;
+    font-weight: 400;
 }
 
 .talent-box .desc {
     font-size: 1.3em;
-    color: #444;
+    color: #000;
     line-height: 1.6;
+    font-weight: 400;
 }
 
 /* Phone Image */
@@ -379,7 +381,7 @@ nav.nav ul {
     padding: 20px 18px;
     border-radius: 8px;
     font-size: 1.3em;
-    font-weight: 500;
+    font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
     width: 90%;
@@ -417,6 +419,7 @@ nav.nav ul {
 
 .contact-info { 
     text-align: left;
+    width: 60%;
 }
 
 .contact-info h2 {
@@ -426,7 +429,7 @@ nav.nav ul {
 .heading-adombil h2 {
     font-size: 1.8em;
     margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #000;
 }
 .asterlass {
@@ -940,15 +943,15 @@ section.particuliers {
     background-color: #EDEDED;
     border-radius: 100px;
     border: 1px solid #4CBBEC;
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: absolute;
     top: -45px;
     left: 0;
-    font-size: 40px;
+    font-size: 1.9em;
     right: 0;
     margin: 0 auto;
 }
@@ -961,6 +964,7 @@ section.particuliers {
     margin: 25px 0px;
     font-size: 1.7em;
     font-weight: 600;
+    transition: 0.5s;
 }
 .contacter h5 span {
        font-size: 1.4em;
@@ -972,6 +976,13 @@ section.particuliers {
 .contacter p {
     font-size: 1.4em;
     font-weight: 400;
+     transition: 0.5s;
+}
+.contacter:hover h5 {
+    font-size: 1.9em;
+}
+.contacter:hover p{
+    font-size: 1.6em;
 }
 /**********************new a css******************/
 
@@ -992,6 +1003,74 @@ body {
 .hero-grid { 
     grid-template-columns: 450px 1fr;
 }
+.section-title {
+    font-size: 2em; 
+}
+
+.talent-box h3 {
+    font-size: 2em; 
+}
+
+.talent-box-contant-thre h3 {
+    font-size: 2em; 
+}
+
+.talent-box .subtitle {
+    font-size: 1.4em; 
+}
+.talent-box-contant-thre .subtitle {
+    font-size: 1.4em; 
+}
+.btn-link { 
+    font-size: 1.3em; 
+}
+.heading-adombil h2 {
+    font-size: 1.7em; 
+}
+
+.iniflun button { 
+    font-size: 1.2em; 
+}
+.bottom-part p { 
+    font-size: 1.7em; 
+}
+.label {
+    font-size: 1.3em; 
+}
+.learn-more { 
+    font-size: 2em;
+}
+.center-content h3 { 
+    font-size: 2em;
+}
+button.search-icon img {
+    width: 20px;
+}
+.search-boxbottm { 
+    width: 600px; 
+}
+section.trouvez-votre.invirelr {
+    padding-bottom: 150px;
+}
+.contacter span.numbers { 
+    width: 75px;
+    height: 75px; 
+}
+
+.contacter { 
+    padding: 30px 20px; 
+}
+.fleing { 
+    font-size: 1.3em; 
+}
+
+
+.lilitok h3 { 
+    font-size: 1.8em;
+}
+
+
+
 }
 
 @media(max-width: 1400px) {
