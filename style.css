@@ -1205,7 +1205,10 @@ section.particuliers {
         font-size: 13px;
     }
 
-
+.search-box {
+    width: auto;
+    margin-left: 0px;
+}
 
     .professionnels {
         grid-template-columns: repeat(1, 1fr);
@@ -1223,9 +1226,7 @@ section.particuliers {
         height: 80px;
         right: 40px;
     }
-}
-
-@media(max-width: 1025px) {
+ 
     h1 {
         font-size: 1.6em;
     }
@@ -1409,7 +1410,7 @@ a.emailtablet span {
 }
 
 /* Responsive */
-@media(max-width: 900px) {
+@media(max-width: 991px) {
 
 
 
