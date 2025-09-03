@@ -239,8 +239,7 @@ button.buttons.btan {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
-    flex-wrap: wrap;
+    gap: 40px; 
     max-width: 1200px;
     margin: auto;
 }
@@ -1090,11 +1089,7 @@ body {
         font-size: 13px;
     }
 
-
-
-.hero-grid { 
-    grid-template-columns: 1fr;
-}
+ 
 
 .professionnels { 
     grid-template-columns: repeat(1, 1fr); 
@@ -1122,9 +1117,7 @@ h1 {
         font-size: 1.5em;
     }
 
-.wrapper .cta {
-    font-size: 1.1em;
-}
+ 
 .talent-box h3 {
     font-size: 2em;
 }
@@ -1210,47 +1203,7 @@ flex-wrap: nowrap;
 }
 /* Responsive */
 @media(max-width: 900px) {
-    .talents-wrapper {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .talent-box {
-        text-align: center;
-    }
-
-    h1{
-        font-size: 1.4em;
-    }
-.hero-content p {
-        font-size: 1.2em;
-    }
-
-    .wrapper h2
- {
-        font-size: 1.2em;
-    }
-.grightcard h3 {
-    font-size: 1.2em;
-}
-.grightcard h5 {
-    font-size: 1em;
-}
-.talents-wrapper {
-    max-width: 100%;
-}
-.talent-box {
-    flex: 100%;
-    text-align: center;
-}
-.talent-box-contant-thre {
-    flex: 100%;
-    text-align: center;
-}
-.top-part {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+     
 }
 
  
