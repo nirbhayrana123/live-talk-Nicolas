@@ -1657,9 +1657,7 @@ section.toklivik {
 .top-francice { 
     flex-wrap: wrap;
 }
-.trouvez-votre .card.slick-slide {
-    margin-right: 0;
-}
+ 
     .footer-links ul {
         gap: 20px 20px;
         flex-wrap: wrap;
@@ -1705,6 +1703,7 @@ section.toklivik {
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
+        gap: 0;
     }
     .footer-bottom {
         margin-top: 14px;
@@ -1718,5 +1717,8 @@ section.toklivik {
         text-align: center;
         margin-top: 15px;
     }
+    .social-icons p.powrd-by {
+    font-size: 1.1em; 
+}
    
 }
