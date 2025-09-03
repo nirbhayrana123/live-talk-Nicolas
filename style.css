@@ -1498,8 +1498,28 @@ a.mobileview {
         a.mobileview {
         display: block;
     }
+    .hero-grid a.cta {
+    display: none;
+}
+button.iconphone span {
+    display: none;
+}
+    button.iconphone {
+        padding: 10px;
+        width: 35px;
+        height: 35px;
+    }
+    button.buttons.btan {
+    margin: 15px 5px;
+}
+button.btan { 
+    padding: 15px 40px; 
+}
     .grid-2 {
         grid-template-columns: 1fr;
+    }
+        section.invirelr {
+        padding: 20px 0px;
     }
 .tablet a.buttomtabletheader {
     display: none;
@@ -1653,11 +1673,7 @@ section.toklivik {
     display: none;
 }
 
-button.iconphone { 
-    padding: 15px;
-    width: 50px;
-    height: 50px; 
-}
+
 
 .mainphone { 
     gap: 10px;
