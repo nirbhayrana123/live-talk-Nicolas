@@ -202,7 +202,7 @@ button.buttons.btan {
 
 .btn-small {
     padding: 6px 12px;
-    background: #0dcaf0;
+    background: #4CBBEC;
     border-radius: 4px;
 }
 
@@ -250,7 +250,7 @@ button.buttons.btan {
 }
 
 .hero .blue {
-    color: #0dcaf0;
+    color: #4CBBEC;
     font-weight: 700;
 }
 
@@ -315,7 +315,7 @@ button.buttons.btan {
 .talent-box .subtitle {
     font-size: 1.5em;
     font-weight: 600;
-    color: #00a2ff;
+    color: #4CBBEC;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
@@ -323,7 +323,7 @@ button.buttons.btan {
 .talent-box-contant-thre .subtitle {
     font-size: 1.5em;
     font-weight: 600;
-    color: #00a2ff;
+    color: #4CBBEC;
     margin-bottom: 15px;
     text-transform: uppercase;
 }
@@ -352,7 +352,7 @@ button.buttons.btan {
     display: inline-block;
     font-size: 1.5em;
     font-weight: 400;
-    color: #00a2ff;
+    color: #4CBBEC;
     text-decoration: underline;
 }
 
@@ -510,7 +510,7 @@ nav.nav ul {
 
 .divider {
     border: none;
-    border-top: 2px solid #00AEEF;
+    border-top: 2px solid #4CBBEC;
     margin: 40px 0;
 }
 
@@ -602,7 +602,7 @@ p {
 .learn-more {
     display: inline-block;
     margin-top: 50px;
-    color: #00AEEF;
+    color: #4CBBEC;
     text-decoration: underline;
     font-weight: 600;
     font-size: 2.2em;
@@ -761,7 +761,7 @@ button.iconphone img {
     transform: translateX(-50%);
     border-width: 0 25px 25px 25px;
     border-style: solid;
-    border-color: transparent transparent #29b6f6 transparent;
+    border-color: transparent transparent #4CBBEC transparent;
 }
 
 
