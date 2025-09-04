@@ -258,11 +258,13 @@ button.buttons.btan {
     display: grid;
     gap: 20px;
     grid-template-columns: 470px 1fr;
-    align-items: center;
+    align-items: start;
 }
 
-.onephone {
-    width: 111px;
+.onephone
+ {
+    width: 96px;
+    margin: 0 auto;
 }
 /* Section Wrapper */
 .talents-section {
@@ -1204,7 +1206,9 @@ button.iconphone img {
         font-size: 1.8em;
     }
 
-
+.onephone {
+    width: 114px;
+}
 
 }
 
@@ -1217,14 +1221,26 @@ button.iconphone img {
         width: 500px;
     }
 }
+@media(max-width: 1300px) {
+.onephone {
+        width: 102px;
+    }
 
+}
 
 @media(max-width: 1200px) {
 
     body {
         font-size: 13px;
     }
-
+    .onephone {
+        width: auto;
+    }
+    .hero {
+        
+    padding-top: 45px;
+    
+}
     .search-box {
         width: auto;
         margin-left: 0px;
@@ -1256,9 +1272,12 @@ button.iconphone img {
     }
 
     .wrapper h2 {
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
-
+    .hero-grid
+ {
+        grid-template-columns: 380px 1fr;
+    }
 
     .talent-box h3 {
         font-size: 2em;
@@ -1436,7 +1455,12 @@ button.iconphone img {
 
 /* Responsive */
 @media(max-width: 991px) {
-
+.hero h1 br {
+    display: none;
+}
+.hero-content p {
+        font-size: 1.3em;
+    }
     .hero-grid {
         grid-template-columns: 1fr;
     }
@@ -1448,6 +1472,7 @@ button.iconphone img {
     .talent-box {
         flex: 100%;
         text-align: center;
+        margin-top: 20px;
     }
 
     .talent-box-contant-thre {
@@ -1540,9 +1565,9 @@ button.iconphone img {
     margin-bottom: 40px;
 }
 .mobilelist button.iconphone {
-        padding: 10px;
-        width: 40px;
-        height: 40px;
+        padding: 18px;
+        width: 65px;
+        height: 65px;
         margin: 0 auto;
     }
     .hero-grid a.cta {
@@ -1560,7 +1585,9 @@ button.iconphone img {
     }
 
     button.buttons.btan {
-        margin: 15px 5px;
+        margin: 25px 5px;
+        background-color: #4cbbec;
+        color: #fff;
     }
     .mobiles-phones {
     display: block;
@@ -1648,18 +1675,27 @@ button.buttons {
     }
 
     h1 {
-        font-size: 1.4em;
+        font-size: 1.5em;
 
     }
-
+.contact-info .mobilesde span {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
     .hero-content p {
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
-
+.mobilelist button.iconphone span
+ {
+    display: block;
+}
     .wrapper h2 {
         font-size: 1.1em;
     }
-
+.contact-info button.iconphone img {
+    margin-bottom: 0;
+}
     .grightcard h3 {
         font-size: 1.1em;
     }
@@ -1678,23 +1714,23 @@ button.buttons {
     }
 
     .section-title {
-        font-size: 1.6em;
+        font-size: 1.7em;
     }
 
     .talent-box h3 {
-        font-size: 1.6em;
+        font-size: 1.7em;
     }
 
     .talent-box .subtitle {
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 
     .talent-box-contant-thre h3 {
-        font-size: 1.6em;
+        font-size: 1.7em;
     }
 
     .talent-box-contant-thre .subtitle {
-        font-size: 1.3em;
+        font-size: 1.4em;
     }
 
     .talent-box-contant-thre .desc {
@@ -1703,6 +1739,7 @@ button.buttons {
 
     .btn-link {
         margin-top: 20px;
+        font-size: 1.4em;
     }
 
     .heading-adombil h2 {
@@ -1710,7 +1747,7 @@ button.buttons {
     }
 
     .contact-info h2 {
-        font-size: 1.5em;
+        font-size: 1.7em;
     }
 
     .bottom-part h2 {
@@ -1739,9 +1776,7 @@ button.buttons {
         font-size: 1.2em;
     }
 
-    .fleing {
-        font-size: 1em;
-    }
+   
 
     section.toklivik {
         padding: 70px 0px;
@@ -1754,6 +1789,21 @@ button.buttons {
     .hero-content br {
         display: none;
     }
+.footer-links ul {
+        justify-content: center;
+    }
+    .copyright
+ {
+    gap: 75px;
+}
+}
+
+@media(max-width: 680px) {
+ .icon-container {
+        gap: 20px;
+        justify-content: start;
+        flex-direction: column;
+    }
 
 }
 
@@ -1761,7 +1811,9 @@ button.buttons {
     .hero h1 {
         margin-bottom: 10px;
     }
-
+.fleing img {
+    width: 20px;
+}
     .top-francice {
         flex-wrap: wrap;
     }
@@ -1780,7 +1832,9 @@ button.buttons {
         display: none;
     }
 
-
+ .fleing {
+        font-size: 1em;
+    }
 
     .mainphone {
         gap: 10px;
@@ -1791,15 +1845,11 @@ button.buttons {
     }
 
     .contact-info button.iconphone {
-        width: 45px;
-        height: 45px;
+        width: 55px;
+        height: 55px;
     }
 
-    .icon-container {
-        gap: 20px;
-        justify-content: start;
-        flex-direction: column;
-    }
+   
 
     .search-boxbottm {
         width: 100%;
