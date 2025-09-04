@@ -258,9 +258,12 @@ button.buttons.btan {
     display: grid;
     gap: 20px;
     grid-template-columns: 470px 1fr;
+    align-items: center;
 }
 
-
+.onephone {
+    width: 111px;
+}
 /* Section Wrapper */
 .talents-section {
     background: #FBFBFB;
@@ -631,7 +634,7 @@ p {
 
 
 
-
+  
 
 .wrapper {
     text-align: center;
@@ -735,10 +738,12 @@ button.iconphone img {
     display: block;
 }
 
-
+.mobiles-phones {
+    display: none;
+}
 /* CTA Button */
 .wrapper .cta {
-    margin-top: 40px;
+    margin-top: 41px;
     display: inline-flex;
     align-items: center;
     background: #4CBBEC;
@@ -1095,6 +1100,9 @@ section.particuliers {
 
 .tablet {
     display: none;
+}
+button.iconphone img { 
+    margin-bottom: 10px;
 }
 
 /**********************new a css******************/
@@ -1545,15 +1553,23 @@ section.particuliers {
         display: none;
     }
 
-    button.iconphone {
+       button.iconphone {
         padding: 10px;
-        width: 35px;
-        height: 35px;
+        width: 50px;
+        height: 50px;
     }
 
     button.buttons.btan {
         margin: 15px 5px;
     }
+    .mobiles-phones {
+    display: block;
+}
+.mobiles-phones {
+    display: flex;
+    margin-bottom: 45px;
+    align-items: center;
+}
 
     button.btan {
         padding: 15px 40px;
@@ -1593,6 +1609,14 @@ button.buttons {
         font-weight: 500;
         display: none;
     }
+    .molios img {
+    width: 21px;
+    margin-bottom: 0 !important;
+}
+.contact-info .mainphone.hides 
+ {
+    display: none;
+}
 
     .footer-container {
         flex-direction: column;
