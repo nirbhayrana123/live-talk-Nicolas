@@ -119,54 +119,30 @@ h3 {
     margin-left: auto;
 }
 
-@media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-}
 
-@media (min-width: 768px) {
-    .container {
-        max-width: 720px;
-    }
-}
 
-@media (min-width: 992px) {
-    .container {
-        max-width: 960px;
-    }
-}
 
-@media (min-width: 1200px) {
-    .container {
-        max-width: 1140px;
-    }
-}
-
-@media (min-width: 1400px) {
-    .container {
-        max-width: 1320px;
-    }
-}
 
 @media (min-width: 576px) {
     .container {
         max-width: 540px;
     }
 }
-
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
     }
 }
-
+@media (min-width: 800px) {
+.container {
+        max-width: 780px;
+    }
+}
 @media (min-width: 992px) {
     .container {
         max-width: 960px;
     }
 }
-
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
@@ -350,7 +326,7 @@ button.buttons.btan {
 
 .section-title {
     font-size: 2.5em;
-    font-weight: 700;
+    font-weight: 800;
     color: #4CBBEC;
     margin-bottom: 15px;
     text-transform: uppercase;
@@ -1117,6 +1093,7 @@ section.particuliers {
     color: #fff;
     font-weight: 600;
     margin-bottom: 100px;
+    text-transform: uppercase;
 }
 
 .contacter {
@@ -1186,7 +1163,9 @@ section.particuliers {
 button.iconphone img {
     margin-bottom: 10px;
 }
-
+.butarrow {
+    display: none; 
+}
 /**********************new a css******************/
 
 
@@ -1237,9 +1216,9 @@ button.iconphone img {
         font-size: 1.3em;
     }
 
-    .heading-adombil h2 {
+    /* .heading-adombil h2 {
         font-size: 1.7em;
-    }
+    } */
 
     .iniflun button {
         font-size: 1.2em;
@@ -1306,6 +1285,24 @@ button.iconphone img {
     .onephone {
         width: auto;
     }
+
+.footer-links ul li a { 
+    font-size: 17px; 
+}
+    .footer-links ul {
+        gap: 0px 80px;
+    }
+.grightcard h5
+ {
+    font-size: 1.3em;
+}
+
+    .wrapper h2
+ {
+        font-size: 1.3em;
+        margin-bottom: 16px;
+    }
+
 }
 
 @media(max-width: 1300px) {
@@ -1320,6 +1317,7 @@ button.iconphone img {
     body {
         font-size: 13px;
     }
+ 
 
     .onephone {
         width: auto;
@@ -1362,7 +1360,7 @@ button.iconphone img {
     }
 
     .wrapper h2 {
-        font-size: 1.2em;
+        font-size: 0.9em;
     }
 
     .hero-grid {
@@ -1545,6 +1543,31 @@ button.iconphone img {
 
 /* Responsive */
 @media(max-width: 991px) {
+.onephone img.bpxdrop
+ {
+    border-radius: 10px;
+}
+    .wrapper .cta {
+        max-width: 138px;
+        padding: 5px 10px;
+        font-size: 0.6em;
+    }
+
+.insta-card {
+    width: 98px; 
+}
+
+.card-actions i{
+    font-size: 9px;
+}
+
+.card-caption {
+    padding: 0 5px 5px;
+    font-size: 5px; 
+}
+
+
+
 
     .grightcard {
         padding: 25px 15px;
@@ -1580,7 +1603,7 @@ button.iconphone {
     font-size: 1em;
 }
     .wrapper h2 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .grightcard h3 {
     font-size: 1.3em;
@@ -1597,16 +1620,8 @@ button.btan {
         max-width: 100%;
     }
 
-    .talent-box {
-        flex: 100%;
-        text-align: center;
-        margin-top: 20px;
-    }
+   
 
-    .talent-box-contant-thre {
-        flex: 100%;
-        text-align: center;
-    }
 
     .talent-box-contant-thre h3 br {
         display: none;
@@ -1619,13 +1634,46 @@ button.btan {
     .contact-info {
         width: 100%;
     }
+    .talent-box h3 {
+        font-size: 1.5em;
+    }
 
+    .talent-box .subtitle {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+.talent-box .desc {
+    font-size: 1em; 
+}
+.talent-box-contant-thre h3 {
+        font-size: 1.5em;
+    }
+        .talent-box-contant-thre .subtitle {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+    .talent-box-contant-thre .desc {
+    font-size: 1em; 
+}
     .images-stack {
         width: 100%;
         order: 2;
         text-align: center;
     }
 
+    .contacter h5 {
+    margin-bottom: 20px;
+    font-size: 1.6em; 
+}
+.contacter p {
+    font-size: 1.3em; 
+}
+.contacter:hover p {
+    font-size: 1.5em; 
+}
+.contacter:hover h5 {
+   font-size: 1.7em; 
+}
     .top-part {
         flex-wrap: wrap;
     }
@@ -1672,23 +1720,56 @@ button.btan {
         justify-content: start;
     }
 
-
-
-
-
+    .contacter span.numbers { 
+        width: 65px;
+        height: 65px; 
+        top: -32px;
+    }
+    .lilitok h3 {
+        font-size: 1.7em;
+    }
+section.toklivik {
+    padding: 60px 0px;
+    text-align: center;
+}
+.butarrow {
+    display: block;
+    padding-top: 50px;
+}
+.butarrow button.uparrow {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
     a.mobileview {
         display: none;
     }
 
 
 }
+@media(max-width: 880px) {
 
+.talent-box {
+    flex: 100%;
+    text-align: center;
+}
+.talent-box-contant-thre
+ {
+    flex: 100%;
+    text-align: center;
+}
+}
 
 @media(max-width: 768px) {
     a.mobileview {
         display: block;
     }
-
+    .insta-card {
+        width: 150px;
+    }
+.insta-cordpost {
+    justify-content: center;
+}
     .mobilelist {
         display: block;
         margin-bottom: 40px;
@@ -1950,9 +2031,17 @@ button.btan {
     }
 
     .footer-links ul {
+        text-align: left;
+        gap: 20px; 
         justify-content: center;
-    }
 
+    }
+    .march-linl {
+    width: 45%;
+}
+footer { 
+    padding: 40px 0px 20px; 
+}
     .copyright {
         gap: 75px;
     }
@@ -1971,7 +2060,9 @@ button.btan {
     .hero h1 {
         margin-bottom: 10px;
     }
-
+.insta-card {
+        width: 103px;
+    }
     .fleing img {
         width: 20px;
     }
