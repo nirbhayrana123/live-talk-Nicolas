@@ -1181,6 +1181,12 @@ button.iconphone img {
     margin-bottom: 3px;
      
 } 
+img.chtsi {
+    width: 42px;
+}
+img.teconsa {
+    width: 50px;
+}
 .butarrow {
     display: none; 
 }
@@ -1320,6 +1326,9 @@ button.iconphone img {
         font-size: 1.3em;
         margin-bottom: 16px;
     }
+    .onephone img.bpxdrop {
+    border-radius: 20px;
+}
 
 }
 
@@ -1335,7 +1344,9 @@ button.iconphone img {
     body {
         font-size: 13px;
     }
- 
+ .onephone img.bpxdrop {
+    border-radius: 12px;
+}
 
     .onephone {
         width: auto;
@@ -1785,6 +1796,7 @@ section.toklivik {
     .insta-card {
         width: 150px;
     }
+    
 .insta-cordpost {
     justify-content: center;
 }
