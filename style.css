@@ -721,7 +721,13 @@ p {
     color: #4CBBEC;
 }
 .iconphone img.webam {
-    width: 30px !important;
+    width: 35px !important;
+}
+.iconphone img.smsis {
+    width: 37px;
+}
+.iconphone img.emlisa {
+    width: 40px;
 }
 
 button.iconphone {
@@ -827,14 +833,16 @@ button.iconphone img {
 .wrapper .cta::after {
     content: "";
     position: absolute;
-    top: -25px;
+    top: -24px;
     left: 50%;
     transform: translateX(-50%);
     border-width: 0 25px 25px 25px;
     border-style: solid;
     border-color: transparent transparent #4CBBEC transparent;
 }
-
+button.iconphone span {
+    font-size: 12px;
+}
 
 .cta img {
     margin-right: 5px;
@@ -1170,9 +1178,9 @@ section.particuliers {
 }
 
 button.iconphone img {
-    margin-bottom: 10px;
-    width: 38px;
-}
+    margin-bottom: 3px;
+     
+} 
 .butarrow {
     display: none; 
 }
@@ -1292,8 +1300,8 @@ button.iconphone img {
     .search-boxbottm {
         width: 500px;
     }
-   .onephone {
-        width: 94px;
+       .onephone {
+        width: 112px;
     }
 
 .footer-links ul li a { 
@@ -1316,8 +1324,8 @@ button.iconphone img {
 }
 
 @media(max-width: 1300px) {
-        .onephone {
-        width: 94px;
+         .onephone {
+        width: 112px;
     }
 
 }
@@ -1786,11 +1794,14 @@ section.toklivik {
     }
 
     .mobilelist button.iconphone {
-        padding: 18px;
+        padding: 10px;
         width: 65px;
         height: 65px;
         margin: 0 auto;
     }
+    button.iconphone img {
+    width: 28px;
+}
         .hero-grid {
         grid-template-columns: 1fr;
         gap: 15px;
