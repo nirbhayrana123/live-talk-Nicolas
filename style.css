@@ -721,15 +721,21 @@ p {
     color: #4CBBEC;
 }
 .iconphone img.webam {
-    width: 35px !important;
+   width: auto;
+    height: 35px;
 }
 .iconphone img.smsis {
-    width: 37px;
+    width: auto;
+    height: 35px;
 }
 .iconphone img.emlisa {
-    width: 40px;
+    width: auto;
+    height: 35px;
 }
-
+img.hghy {
+    width: auto;
+    height: 35px;
+}
 button.iconphone {
     border-radius: 100px;
     background-color: #4CBBEC;
@@ -841,7 +847,7 @@ button.iconphone img {
     border-color: transparent transparent #4CBBEC transparent;
 }
 button.iconphone span {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .cta img {
@@ -1182,13 +1188,19 @@ button.iconphone img {
      
 } 
 img.chtsi {
-    width: 42px;
+    width: auto;
+    height: 35px;
 }
 img.teconsa {
-    width: 50px;
+     width: auto;
+    height: 35px;
 }
 .butarrow {
     display: none; 
+}
+img.hghy {
+     width: auto;
+    height: 35px;
 }
 /**********************new a css******************/
 
@@ -1796,6 +1808,21 @@ section.toklivik {
     .insta-card {
         width: 150px;
     }
+     button.iconphone img {
+        width: auto;
+        height: 26px;
+    }
+        .mainphone button.iconphone {
+        width: 60px;
+        height: 60px;
+    }
+        .card .mainphone button.iconphone {
+        width: 40px;
+        height: 40px;
+    }
+button.iconphone span {
+    font-size: 6px;
+}
     
 .insta-cordpost {
     justify-content: center;
@@ -1884,9 +1911,21 @@ section.toklivik {
         padding: 18px 50px;
     }
 
-    .slick-dots {
-        bottom: -35px;
+       .slick-dots {
+        bottom: 0;
+        position: relative;
     }
+    .slick-dots li button { 
+    border-radius: 90px; 
+    background: transparent;
+    border: 1px solid #4cbbec;
+}
+.tag-slider {
+    padding: 0px 30px !important;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
 
     .tablet a.buttomtabletheader {
         display: none;
@@ -2175,4 +2214,32 @@ footer {
         font-size: 1.1em;
     }
 
+}
+
+@media (max-width: 400px) {
+   button.iconphone img {
+        width: auto;
+        height: 29px;
+    }
+    .iconphone img.webam {
+    width: auto;
+    height: 29px;
+}
+.iconphone img.emlisa {
+    width: auto;
+    height: 29px;
+}
+    button.iconphone img {
+        width: auto;
+        height: 29px;
+    }
+    .mobilelist button.iconphone {
+        width: 60px;
+        height: 60px; 
+    }
+     
+    .slick-dots li.slick-active button {
+    background-color: #4CBBEC;
+    border-radius: 90px;
+}
 }

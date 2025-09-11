@@ -64,6 +64,8 @@ prevArrow: `<button type="button" class="slick-prev">
     {
       breakpoint: 480,
       settings: {
+        arrows: false,
+        dots:  true,
         slidesToShow: 2
       }
     }
