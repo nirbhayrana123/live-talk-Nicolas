@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    object-fit: contain;
+    max-width: 100%;
+}
+
 
 body {
     font-family: "Roboto", sans-serif;
