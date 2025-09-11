@@ -13,13 +13,13 @@ $(document).ready(function(){
         {
           breakpoint: 1200, // tablet
           settings: {
-            slidesToShow: 2
+            slidesToShow: 3
           }
         },
         {
           breakpoint: 767, // mobile
           settings: {
-            slidesToShow: 1
+            slidesToShow: 2
           }
         }
       ]
@@ -64,7 +64,9 @@ prevArrow: `<button type="button" class="slick-prev">
     {
       breakpoint: 480,
       settings: {
-        slidesToShow: 1
+        arrows: false,
+        dots:  true,
+        slidesToShow: 2
       }
     }
   ]
