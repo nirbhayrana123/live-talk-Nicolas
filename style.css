@@ -269,7 +269,7 @@ button.buttons.btan {
 
 /* Hero */
 .hero {
-    background: url('images/banner.jpg');
+    background: url('images/banner.svg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -277,6 +277,7 @@ button.buttons.btan {
     text-align: center;
     color: #fff;
     padding-bottom: 0;
+    background-position: bottom;
 }
 
 .slider-wrapper .tag-slider .slick-arrow {
