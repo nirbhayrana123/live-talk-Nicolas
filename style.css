@@ -4,9 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-img{
+
+img {
     object-fit: contain;
-    max-width: 100%;
+    max-width: 100%; 
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges; 
+
 }
 
 
@@ -19,19 +23,20 @@ body {
 }
 
 .insta-card {
-  width: 150px;
-  background: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  overflow: hidden;
-  z-index: 99;
- 
+    width: 150px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    z-index: 99;
+
 }
+
 .card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px 5px;
 }
 
 .insta-cordpost .insta-card.card:first-child {
@@ -39,56 +44,65 @@ body {
     left: 9px;
     top: 7px;
 }
- 
+
 
 .card-img img {
-  width: 100%;
-  display: block;
+    width: 100%; 
+    height: auto;
+    object-fit: cover;
 }
+
 .card-actions i.fa-solid.fa-heart {
     color: red;
 }
-.card-actions i.fa-regular.fa-comment{
+
+.card-actions i.fa-regular.fa-comment {
     color: #000;
 }
+
 .card-actions i.fa-regular.fa-paper-plane {
     color: #000;
 }
+
 .card-caption {
     padding: 0 7px 7px;
     font-size: 7px;
     color: #333;
     text-align: left;
 }
+
 .card-actions {
     text-align: left;
     padding: 4px 4px;
     display: flex;
     align-items: center;
 }
+
 .card-actions i {
     margin-right: 3px;
     font-size: 7px;
 }
 
- 
+
 .card-header span {
     color: #000;
     font-size: 7px;
 }
- 
+
 
 .header-right {
     color: #000;
     cursor: pointer;
 }
+
 .header-left {
-    display: flex;
-    align-items: start;
+    display: flex
+;
     position: relative;
-    top: 14px;
+    top: 12px;
+    align-items: flex-start;
 }
-.insta-cordpost{
+.insta-cordpost {
     display: flex;
 }
 
@@ -139,21 +153,25 @@ h3 {
         max-width: 540px;
     }
 }
+
 @media (min-width: 768px) {
     .container {
         max-width: 720px;
     }
 }
+
 @media (min-width: 800px) {
-.container {
+    .container {
         max-width: 780px;
     }
 }
+
 @media (min-width: 992px) {
     .container {
         max-width: 960px;
     }
 }
+
 @media (min-width: 1200px) {
     .container {
         max-width: 1140px;
@@ -269,7 +287,7 @@ button.buttons.btan {
 
 /* Hero */
 .hero {
-    background: url('images/banner.svg');
+    background: url('images/banner.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -409,6 +427,12 @@ button.buttons.btan {
     font-weight: 400;
 }
 
+img.profile-pic {
+    max-width: 30px;
+}
+.talent-phone {
+    padding: 0px 45px;
+}
 /* Phone Image */
 .talent-phone img {
     max-width: 240px;
@@ -726,27 +750,32 @@ p {
 .grightcard h3 span {
     color: #4CBBEC;
 }
+
 .iconphone img.webam {
-   width: auto;
-    height: 35px;
+    width: auto;
+    height: 35px !important;
 }
+
 .iconphone img.smsis {
     width: auto;
-    height: 35px;
+    height: 35px!important;
 }
+
 .iconphone img.emlisa {
     width: auto;
-    height: 35px;
+    height: 35px!important;
 }
+
 img.hghy {
     width: auto;
-    height: 35px;
+    height: 35px!important;
 }
+
 button.iconphone {
     border-radius: 100px;
     background-color: #4CBBEC;
     padding: 10px;
-        width: 70px;
+    width: 70px;
     height: 70px;
     margin: -18px auto;
     display: flex;
@@ -816,10 +845,7 @@ button.iconphone img {
     top: 5px;
 }
 
-.card img {
-    width: 100%;
-    display: block;
-}
+ 
 
 .mobiles-phones {
     display: none;
@@ -852,6 +878,7 @@ button.iconphone img {
     border-style: solid;
     border-color: transparent transparent #4CBBEC transparent;
 }
+
 button.iconphone span {
     font-size: 10px;
 }
@@ -955,6 +982,8 @@ footer {
 .social-icons {
     margin-top: 40px;
     text-align: left;
+    display: flex;
+    gap: 10px; 
 }
 
 .social-icons a {
@@ -1191,23 +1220,31 @@ section.particuliers {
 
 button.iconphone img {
     margin-bottom: 3px;
-     
-} 
+
+}
+
 img.chtsi {
     width: auto;
-    height: 35px;
+    height: 35px!important;
 }
+
 img.teconsa {
-     width: auto;
-    height: 35px;
+    width: auto;
+    height: 35px!important;
 }
+
 .butarrow {
-    display: none; 
+    display: none;
 }
+
 img.hghy {
-     width: auto;
-    height: 35px;
+    width: auto;
+    height: 35px!important;
 }
+.molile-stack {
+    display: none;
+}
+
 /**********************new a css******************/
 
 
@@ -1215,9 +1252,10 @@ img.hghy {
     body {
         font-size: 13px;
     }
+
     .onephone {
-    width: 100px;
-}
+        width: 100px;
+    }
 }
 
 @media(max-width: 1550px) {
@@ -1310,7 +1348,7 @@ img.hghy {
         font-size: 1.8em;
     }
 
-       .onephone {
+    .onephone {
         width: 122px;
     }
 
@@ -1324,34 +1362,37 @@ img.hghy {
     .search-boxbottm {
         width: 500px;
     }
-       .onephone {
+
+    .onephone {
         width: 112px;
     }
 
-.footer-links ul li a { 
-    font-size: 17px; 
-}
+    .footer-links ul li a {
+        font-size: 17px;
+    }
+
     .footer-links ul {
         gap: 0px 80px;
     }
+
     .grightcard h5 {
         font-size: .9em;
     }
 
 
-    .wrapper h2
- {
+    .wrapper h2 {
         font-size: 1.3em;
         margin-bottom: 16px;
     }
+
     .onephone img.bpxdrop {
-    border-radius: 20px;
-}
+        border-radius: 20px;
+    }
 
 }
 
 @media(max-width: 1300px) {
-         .onephone {
+    .onephone {
         width: 112px;
     }
 
@@ -1362,9 +1403,10 @@ img.hghy {
     body {
         font-size: 13px;
     }
- .onephone img.bpxdrop {
-    border-radius: 12px;
-}
+
+    .onephone img.bpxdrop {
+        border-radius: 12px;
+    }
 
     .onephone {
         width: auto;
@@ -1590,28 +1632,29 @@ img.hghy {
 
 /* Responsive */
 @media(max-width: 991px) {
-.onephone img.bpxdrop
- {
-    border-radius: 10px;
-}
+    .onephone img.bpxdrop {
+        border-radius: 10px;
+    }
+   
+
     .wrapper .cta {
         max-width: 138px;
         padding: 5px 10px;
         font-size: 0.6em;
     }
 
-.insta-card {
-    width: 98px; 
-}
+    .insta-card {
+        width: 98px;
+    }
 
-.card-actions i{
-    font-size: 9px;
-}
+    .card-actions i {
+        font-size: 9px;
+    }
 
-.card-caption {
-    padding: 0 5px 5px;
-    font-size: 5px; 
-}
+    .card-caption {
+        padding: 0 5px 5px;
+        font-size: 5px;
+    }
 
 
 
@@ -1632,9 +1675,11 @@ img.hghy {
         background-color: #fff;
         border-radius: 15px;
     }
-button.iconphone {
-    margin: -10px auto;
-}
+
+    button.iconphone {
+        margin: -10px auto;
+    }
+
     .wrapper h2 {
         font-size: 0.9em;
     }
@@ -1646,28 +1691,32 @@ button.iconphone {
     .hero-content p {
         font-size: 1.3em;
     }
+
     .grightcard h5 {
-    font-size: 1em;
-}
+        font-size: 1em;
+    }
+
     .wrapper h2 {
         font-size: 1em;
     }
+
     .grightcard h3 {
-    font-size: 1.3em;
-    width: 178px;
-    margin: 0 auto;
-    margin-bottom: 30px;
-}
-button.btan {
-    padding: 17px 50px;
-}
-    
+        font-size: 1.3em;
+        width: 178px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    button.btan {
+        padding: 17px 50px;
+    }
+
 
     .talents-wrapper {
         max-width: 100%;
     }
 
-   
+
 
 
     .talent-box-contant-thre h3 br {
@@ -1681,6 +1730,7 @@ button.btan {
     .contact-info {
         width: 100%;
     }
+
     .talent-box h3 {
         font-size: 1.5em;
     }
@@ -1689,19 +1739,24 @@ button.btan {
         font-size: 1.2em;
         margin-bottom: 20px;
     }
-.talent-box .desc {
-    font-size: 1em; 
-}
-.talent-box-contant-thre h3 {
+
+    .talent-box .desc {
+        font-size: 1em;
+    }
+
+    .talent-box-contant-thre h3 {
         font-size: 1.5em;
     }
-        .talent-box-contant-thre .subtitle {
+
+    .talent-box-contant-thre .subtitle {
         font-size: 1.2em;
         margin-bottom: 20px;
     }
+
     .talent-box-contant-thre .desc {
-    font-size: 1em; 
-}
+        font-size: 1em;
+    }
+
     .images-stack {
         width: 100%;
         order: 2;
@@ -1709,18 +1764,22 @@ button.btan {
     }
 
     .contacter h5 {
-    margin-bottom: 20px;
-    font-size: 1.6em; 
-}
-.contacter p {
-    font-size: 1.3em; 
-}
-.contacter:hover p {
-    font-size: 1.5em; 
-}
-.contacter:hover h5 {
-   font-size: 1.7em; 
-}
+        margin-bottom: 20px;
+        font-size: 1.6em;
+    }
+
+    .contacter p {
+        font-size: 1.3em;
+    }
+
+    .contacter:hover p {
+        font-size: 1.5em;
+    }
+
+    .contacter:hover h5 {
+        font-size: 1.7em;
+    }
+
     .top-part {
         flex-wrap: wrap;
     }
@@ -1767,72 +1826,91 @@ button.btan {
         justify-content: start;
     }
 
-    .contacter span.numbers { 
+    .contacter span.numbers {
         width: 65px;
-        height: 65px; 
+        height: 65px;
         top: -32px;
     }
+
     .lilitok h3 {
         font-size: 1.7em;
     }
-section.toklivik {
-    padding: 60px 0px;
-    text-align: center;
-}
-.butarrow {
-    display: block;
-    padding-top: 50px;
-}
-.butarrow button.uparrow {
-    border: none;
-    background-color: transparent;
-    cursor: pointer;
-}
+
+    section.toklivik {
+        padding: 60px 0px;
+        text-align: center;
+    }
+
+    .butarrow {
+        display: block;
+        padding-top: 50px;
+    }
+
+    .butarrow button.uparrow {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
     a.mobileview {
         display: none;
     }
 
 
 }
+
 @media(max-width: 880px) {
 
-.talent-box {
-    flex: 100%;
-    text-align: center;
-}
-.talent-box-contant-thre
- {
-    flex: 100%;
-    text-align: center;
-}
+    .talent-box {
+        flex: 100%;
+        text-align: center;
+    }
+
+    .talent-box-contant-thre {
+        flex: 100%;
+        text-align: center;
+    }
 }
 
 @media(max-width: 768px) {
     a.mobileview {
         display: block;
     }
+    .images-stack {
+    display: none;
+}
+.molile-stack {
+    display: block;
+    order: 2;
+}
+
     .insta-card {
         width: 150px;
     }
-     button.iconphone img {
+
+    button.iconphone img {
         width: auto;
         height: 26px;
     }
-        .mainphone button.iconphone {
+
+    .mainphone button.iconphone {
         width: 60px;
         height: 60px;
     }
-        .card .mainphone button.iconphone {
+
+    .card .mainphone button.iconphone {
         width: 40px;
         height: 40px;
     }
-button.iconphone span {
-    font-size: 6px;
-}
-    
-.insta-cordpost {
-    justify-content: center;
-}
+
+    button.iconphone span {
+        font-size: 6px;
+    }
+
+    .insta-cordpost {
+        justify-content: center;
+    }
+
     .mobilelist {
         display: block;
         margin-bottom: 40px;
@@ -1844,22 +1922,27 @@ button.iconphone span {
         height: 65px;
         margin: 0 auto;
     }
+
     button.iconphone img {
-    width: 28px;
-}
-        .hero-grid {
+        width: 28px;
+    }
+
+    .hero-grid {
         grid-template-columns: 1fr;
         gap: 15px;
-       background-color: transparent;
+        background-color: transparent;
         border-radius: 15px;
     }
-        .grightcard h3 { 
-        width: max-content; 
+
+    .grightcard h3 {
+        width: max-content;
     }
-        .mobilelist { 
+
+    .mobilelist {
         margin-bottom: 25px;
     }
-        .mainphone {
+
+    .mainphone {
         gap: 5px;
     }
 
@@ -1917,21 +2000,24 @@ button.iconphone span {
         padding: 18px 50px;
     }
 
-       .slick-dots {
+    .slick-dots {
         bottom: 0;
         position: relative;
     }
-    .slick-dots li button { 
-    border-radius: 90px; 
-    background: transparent;
-    border: 1px solid #4cbbec;
-}
-.tag-slider {
-    padding: 0px 30px !important;
-}
-.slick-dotted.slick-slider {
-    margin-bottom: 0;
-}
+
+    .slick-dots li button {
+        border-radius: 90px;
+        background: transparent;
+        border: 1px solid #4cbbec;
+    }
+
+    .tag-slider {
+        padding: 0px 30px !important;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
 
     .tablet a.buttomtabletheader {
         display: none;
@@ -2092,7 +2178,7 @@ button.iconphone span {
         font-size: 1.2em;
     }
 
-.wrapper h2 {
+    .wrapper h2 {
         font-size: 1em;
     }
 
@@ -2110,16 +2196,19 @@ button.iconphone span {
 
     .footer-links ul {
         text-align: left;
-        gap: 20px; 
+        gap: 20px;
         justify-content: center;
 
     }
+
     .march-linl {
-    width: 45%;
-}
-footer { 
-    padding: 40px 0px 20px; 
-}
+        width: 45%;
+    }
+
+    footer {
+        padding: 40px 0px 20px;
+    }
+
     .copyright {
         gap: 75px;
     }
@@ -2138,9 +2227,11 @@ footer {
     .hero h1 {
         margin-bottom: 10px;
     }
-.insta-card {
+
+    .insta-card {
         width: 103px;
     }
+
     .fleing img {
         width: 20px;
     }
@@ -2167,7 +2258,7 @@ footer {
         font-size: 1em;
     }
 
-    
+
 
     .contact-info .mainphone {
         gap: 15px;
@@ -2223,29 +2314,33 @@ footer {
 }
 
 @media (max-width: 400px) {
-   button.iconphone img {
-        width: auto;
-        height: 29px;
-    }
-    .iconphone img.webam {
-    width: auto;
-    height: 29px;
-}
-.iconphone img.emlisa {
-    width: auto;
-    height: 29px;
-}
     button.iconphone img {
         width: auto;
         height: 29px;
     }
+
+    .iconphone img.webam {
+        width: auto;
+        height: 29px;
+    }
+
+    .iconphone img.emlisa {
+        width: auto;
+        height: 29px;
+    }
+
+    button.iconphone img {
+        width: auto;
+        height: 29px;
+    }
+
     .mobilelist button.iconphone {
         width: 60px;
-        height: 60px; 
+        height: 60px;
     }
-     
+
     .slick-dots li.slick-active button {
-    background-color: #4CBBEC;
-    border-radius: 90px;
-}
+        background-color: #4CBBEC;
+        border-radius: 90px;
+    }
 }
