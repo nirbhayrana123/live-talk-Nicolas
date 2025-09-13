@@ -2222,11 +2222,13 @@ img.hghy {
     font-size: 11px;
 }
 .social-iconsdd {
-    display: flex
-;
+    display: flex;
     width: 60%!important;
     align-items: center;
 }
+.footer-links ul li a {
+        font-size: 14px;
+    }
 .copyright>div:first-child {
     display: none;
 }
