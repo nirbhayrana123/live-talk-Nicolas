@@ -466,8 +466,12 @@ img.profile-pic {
 .copyright {
     display: flex;
     align-items: end;
-    justify-content: end;
-    gap: 396px;
+    justify-content: space-between;
+    
+}
+p.powrd-by {
+    font-weight: 300;
+    color: #eee;
 }
 
 .images-stack img {
@@ -657,7 +661,10 @@ nav.nav ul {
 
 .bottom-part {
     text-align: left;
-    width: 60%;
+    width: 68%;
+}
+.copyright div {
+    width: 215px;
 }
 
 .images-stack {
@@ -809,7 +816,7 @@ button.iconphone img {
     color: #4CBBEC;
     font-size: 1.1em;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 17px;
     font-weight: 500;
 }
 
@@ -1808,6 +1815,7 @@ img.hghy {
 
     .asterlass .images-stack {
         margin-top: 40px;
+        display: block
     }
 
     .iniflun button {
@@ -2001,7 +2009,7 @@ img.hghy {
     }
 
     .slick-dots {
-        bottom: 0;
+        bottom: -20px;
         position: relative;
     }
 
@@ -2206,12 +2214,41 @@ img.hghy {
     }
 
     footer {
-        padding: 40px 0px 20px;
+        padding: 10px 0px 20px;
     }
 
-    .copyright {
-        gap: 75px;
-    }
+    
+    p.powrd-by { 
+    font-size: 11px;
+}
+.social-iconsdd {
+    display: flex
+;
+    width: 60%!important;
+    align-items: center;
+}
+.copyright>div:first-child {
+    display: none;
+}
+.social-icons img 
+ {
+    width: 20px;
+}
+.social-icons {
+    margin-right: 10px;
+}
+.social-icons a {
+    margin-left: 0px;
+}
+.copyright div {
+    width: auto;
+}
+.footer-lang { 
+    margin-bottom: 0;
+}
+section.toklivik {
+    padding-bottom: 40px;
+}
 }
 
 @media(max-width: 680px) {
@@ -2283,18 +2320,20 @@ img.hghy {
         padding-top: 15px;
     }
 
-    .copyright {
-        display: flex;
+     .copyright {
+        display: flex
+;
         align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
+        /* justify-content: space-between; */
+        /* flex-direction: column; */
         gap: 0;
     }
 
-    .footer-bottom {
+      .footer-bottom {
         margin-top: 14px;
         font-size: 9px;
-        order: 2;
+        /* order: 2; */
+        width: 30%;
     }
 
     .footer-logo {
