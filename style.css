@@ -367,7 +367,6 @@ button.buttons.btan {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     max-width: 1200px;
     margin: auto;
 }
@@ -570,7 +569,6 @@ nav.nav ul {
     align-items: center;
     justify-content: space-between;
     gap: 40px;
-    flex-wrap: wrap;
 }
 
 .contact-info {
@@ -1723,7 +1721,9 @@ img.hghy {
         max-width: 100%;
     }
 
-
+.talent-phone {
+    padding: 0px 25px;
+}
 
 
     .talent-box-contant-thre h3 br {
@@ -1734,9 +1734,7 @@ img.hghy {
         display: none;
     }
 
-    .contact-info {
-        width: 100%;
-    }
+
 
     .talent-box h3 {
         font-size: 1.5em;
@@ -1764,11 +1762,7 @@ img.hghy {
         font-size: 1em;
     }
 
-    .images-stack {
-        width: 100%;
-        order: 2;
-        text-align: center;
-    }
+    
 
     .contacter h5 {
         margin-bottom: 20px;
@@ -1795,23 +1789,13 @@ img.hghy {
         justify-content: center;
     }
 
-    .contact-info {
-        text-align: center;
-        order: 1;
-    }
+ 
 
     .bottom-part {
-        text-align: center;
         width: 100%;
     }
 
-    .asterlass {
-        flex-wrap: wrap;
-    }
-
-    .bottom-part p {
-        text-align: center;
-    }
+   
 
     .asterlass .images-stack {
         margin-top: 40px;
@@ -1826,7 +1810,9 @@ img.hghy {
         display: none;
     }
 
-
+.contact-info .mainphone {
+    gap: 15px;
+}
 
     .footer-links ul {
         gap: 20px 20px;
@@ -1834,6 +1820,10 @@ img.hghy {
         justify-content: start;
     }
 
+.icon-container
+ {
+    gap: 10px;
+}
     .contacter span.numbers {
         width: 65px;
         height: 65px;
@@ -1864,21 +1854,15 @@ img.hghy {
         display: none;
     }
 
-
+.talent-box .desc br {
+    display: none;
+}
+.talent-box-contant-thre p.desc br {
+    display: none;
+}
 }
 
-@media(max-width: 880px) {
 
-    .talent-box {
-        flex: 100%;
-        text-align: center;
-    }
-
-    .talent-box-contant-thre {
-        flex: 100%;
-        text-align: center;
-    }
-}
 
 @media(max-width: 768px) {
     a.mobileview {
